@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\code\Reservation\app\libs\ShareSDK-Wechat-Moments-2.3.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="f76c555cdf45bd08d74bccd954710e331059d598">
+        <dex dex="D:\code\Reservation\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Moments-2.3.8_2ea3e2c3b2310f8b2852a0475511b5266ac52588.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\code\Reservation\app\libs\ShareSDK-Wechat-Favorite-2.3.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="9048af3f1279a7f1c83a7c9aa756481f4b74cfbc">
+        <dex dex="D:\code\Reservation\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Favorite-2.3.8_66e8c86cebcf378cdd17b825c2ad99b8bc867231.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\code\Reservation\app\libs\slidingmenu.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="942c0d8b6512d787707afbe8293566c413cdb86a">
+        <dex dex="D:\code\Reservation\app\build\intermediates\pre-dexed\debug\slidingmenu_aca90d79ce5dee7589822bf0874b6972fa48ed5c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\code\Reservation\app\libs\ShareSDK-Wechat-2.3.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="dd53aef33b55f70770e59816193e16a13db02717">
+        <dex dex="D:\code\Reservation\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-2.3.8_39e81b3953fb4137abe406ca1003164639829dcb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\code\Reservation\app\libs\android-async-http-1.4.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="3bae85a076241828810bf8fbcc12e5891d5fc34c">
+        <dex dex="D:\code\Reservation\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.4_47ae27eca9f93dd05078443bb28c829b4cad79e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\code\Reservation\app\libs\ShareSDK-TencentWeibo-2.3.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="20db8b1f1459652116d095e2fb78e398f00ed8c7">
+        <dex dex="D:\code\Reservation\app\build\intermediates\pre-dexed\debug\ShareSDK-TencentWeibo-2.3.8_104c0f00d89ee3ef8404dee001a15cb1922c5746.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\code\Reservation\app\libs\ShareSDK-Core-2.3.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="ac0f451a0f061356d793a76ad8dbcfe4de2e547b">
+        <dex dex="D:\code\Reservation\app\build\intermediates\pre-dexed\debug\ShareSDK-Core-2.3.8_ea811b5b904fb853fd73ad6c8ee58a6cd769cfc7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\code\Reservation\app\libs\ShareSDK-QZone-2.3.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="05236d065dda4d4fc5eeeb30e3b080a26f0e1c36">
+        <dex dex="D:\code\Reservation\app\build\intermediates\pre-dexed\debug\ShareSDK-QZone-2.3.8_514f5c846e160abab113645052d558a272a8566d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\code\Reservation\app\libs\mframework.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="25509058b34a5ee08dbf66e57078e3083735d200">
+        <dex dex="D:\code\Reservation\app\build\intermediates\pre-dexed\debug\mframework_43fcdcbde10a1476895de22192a79361ce1d4572.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jim\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="D:\code\Reservation\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0_0fa07648c876b791b01dacb549a060c0a78cb05a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\code\Reservation\app\libs\ShareSDK-Wechat-Core-2.3.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="c82c5ea882d5a7d4575b01ed96d4c6413a67359d">
+        <dex dex="D:\code\Reservation\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Core-2.3.8_971aee42d3a8cd066548cfb4a904bbb4d7175a2e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\code\Reservation\app\libs\ShareSDK-SinaWeibo-2.3.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="f1f14046d4ddc4b9fdb9000dba76ea3aaa6ebb49">
+        <dex dex="D:\code\Reservation\app\build\intermediates\pre-dexed\debug\ShareSDK-SinaWeibo-2.3.8_bd7d6f783a1fb75c136ce9f3b3cff577837cb2f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\code\Reservation\app\libs\ShareSDK-QQ-2.3.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="46e193a548fb3dcefbd65d3294627f1ffac4f697">
+        <dex dex="D:\code\Reservation\app\build\intermediates\pre-dexed\debug\ShareSDK-QQ-2.3.8_e2f917fcd3ced56903149f4f967c6225a7bf5465.jar" />
+    </item>
+
+</items>

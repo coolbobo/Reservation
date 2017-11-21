@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dip"
+    android:orientation="vertical"
+    android:paddingLeft="20dip"
+    android:paddingRight="20dip"
+    android:paddingBottom="10dip"
+   
+  	 >
+  	<LinearLayout 
+  	    android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:orientation="horizontal"
+		android:layout_marginTop="10dip"
+	  	    >
+  	    <TextView 
+		  	    android:layout_width="70dip"
+		  	    android:layout_height="match_parent"
+		  	    android:gravity="center"
+		  	    android:text="@string/position_gender"
+  	    		/>
+  
+		 <RadioGroup android:id="@+id/resumeSex"
+			        		android:layout_width="match_parent"
+			        		android:layout_height="match_parent"
+			        		android:orientation="horizontal"
+			        >
+				    <RadioButton 
+				            android:id="@+id/resumeGender"
+				            android:layout_width="match_parent"
+				            android:layout_height="match_parent"
+				            android:layout_weight="1"
+				            android:background="@drawable/sexselected"
+				            android:checked="true"
+				            android:text="@string/position_male"
+				            android:button="@null"
+				            android:gravity="center"
+				       />
+				    <RadioButton 
+				            android:id="@+id/resumeFeMale"
+				            android:layout_width="match_parent"
+				            android:layout_height="match_parent"
+				            android:layout_weight="1"
+				            android:text="@string/position_female"
+				            android:button="@null"
+				            android:gravity="center"
+				    />
+	     </RadioGroup>
+  
+  	</LinearLayout>
+  	
+	<LinearLayout 
+  	    android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:orientation="horizontal"
+		android:layout_marginTop="10dip"
+	  	    >
+  		  	<TextView 
+		  	    android:layout_width="70dip"
+		  	    android:layout_height="match_parent"
+		  	    android:gravity="center"
+		  	    android:text="@string/position_birthDate"
+  	    		/>
+  		<EditText 
+  		    android:id="@+id/resumeDate"
+	  	    android:layout_width="match_parent"
+	  	    android:layout_height="match_parent"
+	  	    android:gravity="center_vertical"
+	  	   	android:background="@drawable/input_phone"
+  	    	/>  
+  		    
+	</LinearLayout>
+  		
+  		
+	<LinearLayout 
+  	    android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:orientation="horizontal"
+		android:layout_marginTop="10dip"
+	  	    >
+  			<TextView 
+		  	    android:layout_width="70dip"
+		  	    android:layout_height="match_parent"
+		  	    android:gravity="center"
+		  	    android:text="@string/position_phone"
+  	    		/>
+  			 <EditText 
+  			android:id="@+id/resumePhone"
+	  	    android:layout_width="match_parent"
+	  	    android:layout_height="match_parent"
+	  	    android:gravity="center_vertical"
+	  	   	android:background="@drawable/input_phone"
+  	    	/>      
+  			    
+	</LinearLayout>
+</LinearLayout>
+

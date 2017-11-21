@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 注册页面 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+  	 >
+    <RelativeLayout
+        android:id="@+id/position_itembg"
+        android:layout_width="match_parent"
+        android:layout_height="120dip" 
+        android:background="@drawable/position_itembg"
+        android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+         >
+      	<RelativeLayout 
+      	    android:id="@+id/btn_left"
+      	    android:layout_width="30dip"
+      	    android:layout_height="match_parent"
+      	    android:gravity="center_horizontal"
+      	    android:paddingTop="10dip"
+      	    >
+      	    <ImageView 
+      	        android:id="@+id/btn_xing"
+      	        android:layout_width="wrap_content"
+      	        android:layout_height="wrap_content"
+      	        android:src="@drawable/position_xing"
+      	        android:contentDescription="@null"
+      	        />
+      	    
+      	</RelativeLayout>
+         <LinearLayout 
+             android:id="@+id/position_middle"
+             android:layout_width="200dip"
+             android:layout_height="match_parent"
+             android:layout_toRightOf="@id/btn_left"
+             android:orientation="vertical"
+             >
+	            <TextView android:id="@+id/position_name"
+	                	  android:layout_width="match_parent"
+	                	  android:layout_height="match_parent"
+	                	  android:layout_weight="1"
+	                	  android:ellipsize="end"
+	                	  android:gravity="center_vertical"
+	                	  android:text="招聘商务小车接待司机"
+	                />
+
+	            <TextView
+	                android:id="@+id/position_salary"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_weight="1"
+	                android:gravity="center_vertical"
+	                android:text="面议" />
+             	 
+             	  <LinearLayout 
+             	     	android:id="@+id/position_count"
+             	     	android:layout_width="match_parent"
+                	    android:layout_height="match_parent"
+                	    android:orientation="horizontal"
+                	    android:layout_weight="1"
+             	     >
+             	      <TextView 
+             	         android:id="@+id/positionCount"
+	           	         android:layout_width="match_parent"
+	              	     android:layout_height="match_parent"
+	              	     android:layout_weight="1"
+	           	         android:gravity="center_vertical"
+	           	         android:text="招聘12人"
+	           	         />
+             	      
+             	      <TextView 
+             	         android:id="@+id/positionSuffer"
+	           	         android:layout_width="match_parent"
+	              	     android:layout_height="match_parent"
+	              	     android:layout_weight="1"
+	           	         android:gravity="center_vertical"
+	           	         android:text="经验不限"
+	           	         />
+             	      
+             	      <TextView 
+             	         android:id="@+id/positionEducation"
+	           	         android:layout_width="match_parent"
+	              	     android:layout_height="match_parent"
+	              	     android:layout_weight="1"
+	           	         android:gravity="center_vertical"
+	           	         android:text="学历不限"
+	           	         />
+             	     
+             	 </LinearLayout>
+             	 
+             	  
+           	   <TextView 
+           	             android:id="@+id/company"
+	           	         android:layout_width="match_parent"
+	              	     android:layout_height="match_parent"
+	              	     android:layout_weight="1"
+	           	         android:gravity="center_vertical"
+	           	         android:text="深圳夜泊东方娱乐有限公司"
+	           	         android:ellipsize="end"
+	           	         />
+             
+         </LinearLayout>
+         
+         <LinearLayout android:id="@+id/postion_right"
+             			android:layout_width="match_parent"
+             			android:layout_height="match_parent"
+             			android:layout_toRightOf="@id/position_middle"
+             			android:orientation="vertical"
+             >
+             <TextView
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_weight="1"
+	                 />
+             
+             <LinearLayout
+	             
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_weight="1"
+	                android:orientation="horizontal"
+	                android:gravity="center_vertical"
+	                >
+                 	 <TextView
+                 	    android:id="@+id/position_address"
+		                android:layout_width="match_parent"
+		                android:layout_height="match_parent"
+		                android:layout_weight="1"
+		                android:gravity="center_vertical"
+		                android:text="福田" />
+                 	 <TextView
+                 	     android:id="@+id/position_area"
+                 	     android:layout_width="match_parent"
+                 	     android:layout_height="match_parent"
+                 	     android:layout_weight="1"
+                 	     android:gravity="center_vertical"
+                 	     android:text="新洲" />
+                 
+             </LinearLayout>
+             
+             <TextView
+	                android:id="@+id/position_time"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_weight="1"
+	                android:gravity="center_vertical"
+	                android:text="6分钟" />
+             
+             <LinearLayout
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_weight="1"
+	        		android:orientation="horizontal"
+	        		android:gravity="center_vertical"
+	                 >
+                 	 <ImageView 
+                 	     android:id="@+id/positionLeve1"
+                 	     android:layout_width="match_parent"
+                 	     android:layout_height="match_parent"
+                 	     android:layout_weight="1"
+                 	     android:src="@drawable/position_itemxing"
+                 	     android:contentDescription="@null"
+                 	     />
+                 	 
+                 	 <ImageView 
+                 	     android:id="@+id/positionLeve2"
+                 	     android:layout_width="match_parent"
+                 	     android:layout_height="match_parent"
+                 	     android:layout_weight="1"
+                 	     android:src="@drawable/position_itemxing"
+                 	     android:contentDescription="@null"
+                 	     />
+                 	 
+                 	 <ImageView 
+                 	     android:id="@+id/positionLeve3"
+                 	     android:layout_width="match_parent"
+                 	     android:layout_height="match_parent"
+                 	     android:layout_weight="1"
+                 	     android:src="@drawable/position_itemxing"
+                 	     android:contentDescription="@null"
+                 	     />
+                 	 
+                 	 <ImageView 
+                 	     android:id="@+id/positionLeve4"
+                 	     android:layout_width="match_parent"
+                 	     android:layout_height="match_parent"
+                 	     android:layout_weight="1"
+                 	     android:src="@drawable/position_itemxing"
+                 	     android:contentDescription="@null"
+                 	     />
+                 	 
+                 	 <ImageView 
+                 	     android:id="@+id/positionLeve5"
+                 	     android:layout_width="match_parent"
+                 	     android:layout_height="match_parent"
+                 	     android:layout_weight="1"
+                 	     android:src="@drawable/position_itemxing"
+                 	     android:contentDescription="@null"
+                 	     />
+             </LinearLayout>
+             
+         </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

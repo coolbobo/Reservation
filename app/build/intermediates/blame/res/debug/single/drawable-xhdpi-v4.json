@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_tencentweibo.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-xhdpi\\logo_tencentweibo.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_qzone.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-xhdpi\\logo_qzone.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_wechatmoments.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-xhdpi\\logo_wechatmoments.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_wechat.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-xhdpi\\logo_wechat.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_qq.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-xhdpi\\logo_qq.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_sinaweibo.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-xhdpi\\logo_sinaweibo.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_renren.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-xhdpi\\logo_renren.png"
+    }
+]

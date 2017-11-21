@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/positionbg"
+    android:padding="10dip"
+  	 >
+    <!-- 手机号仅用于获取验证码，不会向第三方公开。 -->
+    <LinearLayout
+        android:id="@+id/login_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+         >
+	<FrameLayout 
+	    android:id="@+id/release_top"
+	    android:layout_width="match_parent"
+	    android:layout_height="40dip"
+	  	android:layout_marginBottom="10dip"
+	  	android:background="@color/white"
+	 >  
+	     <include layout="@layout/position_release_body"/>
+	 </FrameLayout>
+	<FrameLayout android:id="@+id/release_middle"
+	    	  android:layout_width="match_parent"
+	    	  android:layout_height="120dip" 
+	    	  android:layout_marginBottom="10dip"
+	  		  android:background="@color/white"
+	    >  
+	    <include layout="@layout/position_release_top"/>
+	 </FrameLayout>  
+	<FrameLayout android:id="@+id/release_footer"
+	    	  android:layout_width="match_parent"
+	    	  android:layout_height="240dip"
+	    	  android:background="@color/white" 
+	 >
+		<include layout="@layout/position_release_fabu"/>
+	</FrameLayout>
+	<FrameLayout android:id="@+id/release_fabu"
+	    	  android:layout_width="match_parent"
+	    	  android:layout_height="match_parent"
+	    	  android:background="@color/white" 
+	    	 
+	>
+		<include layout="@layout/position_release_footer"/>
+	</FrameLayout>
+	</LinearLayout>
+</RelativeLayout>

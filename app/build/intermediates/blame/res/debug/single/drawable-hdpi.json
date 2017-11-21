@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\haircut_top.9.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\haircut_top.9.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\hairdressing_top.9.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\hairdressing_top.9.png"
+    }
+]

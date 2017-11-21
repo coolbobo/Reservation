@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/store_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/hairdressing"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <!-- 选择区域，默认定位到当前的区域 -->
+
+    <RelativeLayout
+        android:id="@+id/address_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_marginBottom="10dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip" >
+
+        <Spinner
+            android:id="@+id/province_sp"
+            android:layout_width="80dip"
+            android:layout_height="35dip"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/spinner" />
+
+        <Spinner
+            android:id="@+id/city_sp"
+            android:layout_width="80dip"
+            android:layout_height="35dip"
+            android:layout_marginLeft="5dip"
+            android:layout_marginTop="10dip"
+            android:layout_toRightOf="@+id/province_sp"
+            android:background="@drawable/spinner" />
+
+        <Spinner
+            android:id="@+id/area_sp"
+            android:layout_width="100dip"
+            android:layout_height="35dip"
+            android:layout_marginLeft="5dip"
+            android:layout_marginTop="10dip"
+            android:layout_toRightOf="@+id/city_sp"
+            android:background="@drawable/spinner" />
+        <!-- 附近 -->
+
+        <ImageView
+            android:id="@+id/vicinity"
+            android:layout_width="30dip"
+            android:layout_height="25dip"
+            android:layout_marginLeft="5dip"
+            android:layout_marginTop="15dip"
+            android:layout_toRightOf="@id/area_sp"
+            android:src="@drawable/haridressing_vicinity" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="15dip"
+            android:layout_toRightOf="@id/vicinity"
+            android:text="@string/fujin"
+            android:textColor="@color/green" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/store_name_serach"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_below="@id/address_layout"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip" >
+
+        <AutoCompleteTextView
+            android:id="@+id/search_store"
+            android:layout_width="250dip"
+            android:layout_height="40dip"
+            android:completionThreshold="2" />
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_marginTop="2dip"
+            android:layout_width="match_parent"
+            android:layout_height="35dip"
+            android:layout_toRightOf="@+id/search_store"
+            android:background="@drawable/haridressing_serach" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/store_advertiment"
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:layout_below="@id/store_name_serach"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip" >
+
+        <ImageView
+            android:id="@+id/advertiment_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/gallery5" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/store_list_show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/store_advertiment"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:background="@color/white" >
+
+        <ListView
+            android:id="@+id/store_all_list"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dip"
+            android:cacheColorHint="#ff0000"
+            android:divider="@null"
+            android:dividerHeight="15dip"
+            android:fadingEdge="none"
+            android:fadingEdgeLength="0dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:scrollbars="none" >
+        </ListView>
+    </RelativeLayout>
+
+</RelativeLayout>

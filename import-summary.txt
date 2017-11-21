@@ -1,0 +1,146 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* CVS\
+* CVS\Entries
+* CVS\Entries.Extra
+* CVS\Entries.Extra.Old
+* CVS\Entries.Old
+* CVS\Repository
+* CVS\Root
+* proguard-project.txt
+* 约我系统 - 快捷方式.lnk
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* libs\android-async-http-1.4.4.jar => app\libs\android-async-http-1.4.4.jar
+* libs\mframework.jar => app\libs\mframework.jar
+* libs\ShareSDK-Core-2.3.8.jar => app\libs\ShareSDK-Core-2.3.8.jar
+* libs\ShareSDK-QQ-2.3.8.jar => app\libs\ShareSDK-QQ-2.3.8.jar
+* libs\ShareSDK-QZone-2.3.8.jar => app\libs\ShareSDK-QZone-2.3.8.jar
+* libs\ShareSDK-SinaWeibo-2.3.8.jar => app\libs\ShareSDK-SinaWeibo-2.3.8.jar
+* libs\ShareSDK-TencentWeibo-2.3.8.jar => app\libs\ShareSDK-TencentWeibo-2.3.8.jar
+* libs\ShareSDK-Wechat-2.3.8.jar => app\libs\ShareSDK-Wechat-2.3.8.jar
+* libs\ShareSDK-Wechat-Core-2.3.8.jar => app\libs\ShareSDK-Wechat-Core-2.3.8.jar
+* libs\ShareSDK-Wechat-Favorite-2.3.8.jar => app\libs\ShareSDK-Wechat-Favorite-2.3.8.jar
+* libs\ShareSDK-Wechat-Moments-2.3.8.jar => app\libs\ShareSDK-Wechat-Moments-2.3.8.jar
+* libs\slidingmenu.jar => app\libs\slidingmenu.jar
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* src\bussinessModel\CVS\Entries => app\src\main\resources\bussinessModel\CVS\Entries
+* src\bussinessModel\CVS\Entries.Extra => app\src\main\resources\bussinessModel\CVS\Entries.Extra
+* src\bussinessModel\CVS\Entries.Extra.Old => app\src\main\resources\bussinessModel\CVS\Entries.Extra.Old
+* src\bussinessModel\CVS\Entries.Old => app\src\main\resources\bussinessModel\CVS\Entries.Old
+* src\bussinessModel\CVS\Repository => app\src\main\resources\bussinessModel\CVS\Repository
+* src\bussinessModel\CVS\Root => app\src\main\resources\bussinessModel\CVS\Root
+* src\cn\CVS\Entries => app\src\main\resources\cn\CVS\Entries
+* src\cn\CVS\Repository => app\src\main\resources\cn\CVS\Repository
+* src\cn\CVS\Root => app\src\main\resources\cn\CVS\Root
+* src\cn\sharesdk\CVS\Entries => app\src\main\resources\cn\sharesdk\CVS\Entries
+* src\cn\sharesdk\CVS\Entries.Extra => app\src\main\resources\cn\sharesdk\CVS\Entries.Extra
+* src\cn\sharesdk\CVS\Entries.Extra.Old => app\src\main\resources\cn\sharesdk\CVS\Entries.Extra.Old
+* src\cn\sharesdk\CVS\Entries.Old => app\src\main\resources\cn\sharesdk\CVS\Entries.Old
+* src\cn\sharesdk\CVS\Repository => app\src\main\resources\cn\sharesdk\CVS\Repository
+* src\cn\sharesdk\CVS\Root => app\src\main\resources\cn\sharesdk\CVS\Root
+* src\cn\sharesdk\onekeyshare\CVS\Entries => app\src\main\resources\cn\sharesdk\onekeyshare\CVS\Entries
+* src\cn\sharesdk\onekeyshare\CVS\Entries.Extra => app\src\main\resources\cn\sharesdk\onekeyshare\CVS\Entries.Extra
+* src\cn\sharesdk\onekeyshare\CVS\Entries.Extra.Old => app\src\main\resources\cn\sharesdk\onekeyshare\CVS\Entries.Extra.Old
+* src\cn\sharesdk\onekeyshare\CVS\Entries.Old => app\src\main\resources\cn\sharesdk\onekeyshare\CVS\Entries.Old
+* src\cn\sharesdk\onekeyshare\CVS\Repository => app\src\main\resources\cn\sharesdk\onekeyshare\CVS\Repository
+* src\cn\sharesdk\onekeyshare\CVS\Root => app\src\main\resources\cn\sharesdk\onekeyshare\CVS\Root
+* src\comm\.#AppContext.java.1.4 => app\src\main\resources\comm\.#AppContext.java.1.4
+* src\comm\.#MainhomeActivity.java.1.17 => app\src\main\resources\comm\.#MainhomeActivity.java.1.17
+* src\comm\.#MainhomeActivity.java.1.18 => app\src\main\resources\comm\.#MainhomeActivity.java.1.18
+* src\comm\.#MainhomeActivity.java.1.20 => app\src\main\resources\comm\.#MainhomeActivity.java.1.20
+* src\comm\.#MainhomeActivity.java.1.22 => app\src\main\resources\comm\.#MainhomeActivity.java.1.22
+* src\comm\CVS\Entries => app\src\main\resources\comm\CVS\Entries
+* src\comm\CVS\Entries.Extra => app\src\main\resources\comm\CVS\Entries.Extra
+* src\comm\CVS\Entries.Extra.Old => app\src\main\resources\comm\CVS\Entries.Extra.Old
+* src\comm\CVS\Entries.Old => app\src\main\resources\comm\CVS\Entries.Old
+* src\comm\CVS\Repository => app\src\main\resources\comm\CVS\Repository
+* src\comm\CVS\Root => app\src\main\resources\comm\CVS\Root
+* src\comm\observer\CVS\Entries => app\src\main\resources\comm\observer\CVS\Entries
+* src\comm\observer\CVS\Entries.Extra => app\src\main\resources\comm\observer\CVS\Entries.Extra
+* src\comm\observer\CVS\Entries.Extra.Old => app\src\main\resources\comm\observer\CVS\Entries.Extra.Old
+* src\comm\observer\CVS\Entries.Old => app\src\main\resources\comm\observer\CVS\Entries.Old
+* src\comm\observer\CVS\Repository => app\src\main\resources\comm\observer\CVS\Repository
+* src\comm\observer\CVS\Root => app\src\main\resources\comm\observer\CVS\Root
+* src\conn\CVS\Entries => app\src\main\resources\conn\CVS\Entries
+* src\conn\CVS\Entries.Extra => app\src\main\resources\conn\CVS\Entries.Extra
+* src\conn\CVS\Entries.Extra.Old => app\src\main\resources\conn\CVS\Entries.Extra.Old
+* src\conn\CVS\Entries.Old => app\src\main\resources\conn\CVS\Entries.Old
+* src\conn\CVS\Repository => app\src\main\resources\conn\CVS\Repository
+* src\conn\CVS\Root => app\src\main\resources\conn\CVS\Root
+* src\CVS\Entries => app\src\main\resources\CVS\Entries
+* src\CVS\Entries.Extra => app\src\main\resources\CVS\Entries.Extra
+* src\CVS\Entries.Extra.Old => app\src\main\resources\CVS\Entries.Extra.Old
+* src\CVS\Entries.Old => app\src\main\resources\CVS\Entries.Old
+* src\CVS\Repository => app\src\main\resources\CVS\Repository
+* src\CVS\Root => app\src\main\resources\CVS\Root
+* src\messageAdapter\CVS\Entries => app\src\main\resources\messageAdapter\CVS\Entries
+* src\messageAdapter\CVS\Entries.Extra => app\src\main\resources\messageAdapter\CVS\Entries.Extra
+* src\messageAdapter\CVS\Entries.Extra.Old => app\src\main\resources\messageAdapter\CVS\Entries.Extra.Old
+* src\messageAdapter\CVS\Entries.Old => app\src\main\resources\messageAdapter\CVS\Entries.Old
+* src\messageAdapter\CVS\Repository => app\src\main\resources\messageAdapter\CVS\Repository
+* src\messageAdapter\CVS\Root => app\src\main\resources\messageAdapter\CVS\Root
+* src\model\CVS\Entries => app\src\main\resources\model\CVS\Entries
+* src\model\CVS\Entries.Extra => app\src\main\resources\model\CVS\Entries.Extra
+* src\model\CVS\Entries.Extra.Old => app\src\main\resources\model\CVS\Entries.Extra.Old
+* src\model\CVS\Entries.Old => app\src\main\resources\model\CVS\Entries.Old
+* src\model\CVS\Repository => app\src\main\resources\model\CVS\Repository
+* src\model\CVS\Root => app\src\main\resources\model\CVS\Root
+* src\service\.#ReservationService.java.1.16 => app\src\main\resources\service\.#ReservationService.java.1.16
+* src\service\.#ReservationService.java.1.17 => app\src\main\resources\service\.#ReservationService.java.1.17
+* src\service\CVS\Entries => app\src\main\resources\service\CVS\Entries
+* src\service\CVS\Entries.Extra => app\src\main\resources\service\CVS\Entries.Extra
+* src\service\CVS\Entries.Extra.Old => app\src\main\resources\service\CVS\Entries.Extra.Old
+* src\service\CVS\Entries.Old => app\src\main\resources\service\CVS\Entries.Old
+* src\service\CVS\Repository => app\src\main\resources\service\CVS\Repository
+* src\service\CVS\Root => app\src\main\resources\service\CVS\Root
+* src\view\CVS\Entries => app\src\main\resources\view\CVS\Entries
+* src\view\CVS\Entries.Extra => app\src\main\resources\view\CVS\Entries.Extra
+* src\view\CVS\Entries.Extra.Old => app\src\main\resources\view\CVS\Entries.Extra.Old
+* src\view\CVS\Entries.Old => app\src\main\resources\view\CVS\Entries.Old
+* src\view\CVS\Repository => app\src\main\resources\view\CVS\Repository
+* src\view\CVS\Root => app\src\main\resources\view\CVS\Root
+* Entries.Extra => Entries.extra
+* Entries.Extra.Old => Entries.extra.old
+* Entries.Old => Entries.old
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

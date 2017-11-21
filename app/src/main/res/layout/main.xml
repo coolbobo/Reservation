@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/need_do_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:paddingLeft="50dip"
+    android:paddingRight="50dip"
+    >
+    
+     <!-- 理发 -->
+	<Button 
+	    android:id="@+id/need_harcut"
+	    android:layout_width="match_parent"
+	    android:layout_height="100dip"
+	    android:layout_marginBottom="50dip"
+	   
+	    />
+	
+	<!-- 美容-->
+	<Button 
+	    android:id="@+id/need_Cosmetology"
+	    android:layout_width="match_parent"
+	    android:layout_height="100dip"
+	    android:layout_marginBottom="50dip"
+	    android:layout_below="@id/need_harcut"
+	   
+	    />
+      <!-- 足浴 -->
+    <Button 
+	    android:id="@+id/need_foot"
+	    android:layout_width="match_parent"
+	    android:layout_height="100dip"
+	    android:layout_below="@id/need_Cosmetology"
+	    
+	    />
+
+</RelativeLayout>
+
+<!-- android:background="@drawable/main_footer" 
+ android:background="@drawable/main_reveravtion"
+ android:background="@drawable/main_haircunt"
+-->

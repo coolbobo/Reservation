@@ -1,0 +1,150 @@
+[
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\position_bottom.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\position_bottom.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\top.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\top.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\login.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\employee_item.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\employee_item.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\product_item.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\product_item.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\shopcase.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\shopcase.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\position_show.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\position_show.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\store_busniess_item.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\store_busniess_item.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\position_release_top.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\position_release_top.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\product.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\product.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\revation_service.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\revation_service.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\navigation.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\navigation.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\product_top.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\product_top.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\dialog.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\position_release_body.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\position_release_body.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\information_item.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\information_item.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\position_nav.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\position_nav.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\hairstylist.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\hairstylist.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mainhome.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\mainhome.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\welcome.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\welcome.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\reservation.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\reservation.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\public_adver_item.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\public_adver_item.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\information.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\information.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\position_release_fabu.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\position_release_fabu.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\about_me_list.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\about_me_list.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\position_release_footer.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\position_release_footer.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\regedit.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\regedit.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\about_me.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\about_me.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\position_release.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\position_release.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\record_item.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\record_item.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\store.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\store.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\store_business.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\store_business.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\store_item.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\store_item.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\store_detail.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\store_detail.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\position_can.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\position_can.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\store_adver_item.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\layout\\store_adver_item.xml"
+    }
+]

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/employee_item_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="150dip"
+        android:background="@drawable/hardression_person"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/employee_image"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:src="@drawable/employee1" >
+        </ImageView>
+
+        <RelativeLayout
+            android:id="@+id/store_item_introduce"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dip"
+            android:layout_toRightOf="@+id/employee_image"
+            android:paddingLeft="8.0dip" >
+
+            <TextView
+                android:id="@+id/employee_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="张杰        设计总监"
+                android:textColor="@color/title_color"
+                android:textSize="@dimen/title_dimen" />
+
+            <TextView
+                android:id="@+id/employee_goodat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/employee_name"
+                android:layout_marginTop="2dip"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/employee_name_shangchang"
+                android:textSize="@dimen/content_dimen" />
+            
+            <ImageView
+                android:id="@+id/employee_priase"
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:layout_below="@id/employee_goodat"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="10dip"
+                android:src="@drawable/haridressing_heart_red" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/employee_PraiseCount"
+                android:layout_width="40dip"
+                android:layout_height="20dip"
+                android:layout_below="@id/employee_goodat"
+                android:layout_marginLeft="5dip"
+                android:layout_marginTop="10dip"
+                android:layout_toRightOf="@id/employee_priase"
+                android:text="(200)" />
+            
+            
+            
+             <ImageView
+                android:id="@+id/employee_stow"
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:layout_below="@+id/employee_goodat"
+                android:layout_marginLeft="30dip"
+                android:layout_marginTop="10dip"
+                android:layout_toRightOf="@id/employee_PraiseCount"
+                android:src="@drawable/btn_love" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/employee_stowCount"
+                android:layout_width="45dip"
+                android:layout_height="20dip"
+                android:layout_below="@id/employee_goodat"
+                android:layout_marginLeft="5dip"
+                android:layout_marginTop="10dip"
+                android:layout_toRightOf="@id/employee_stow"
+                android:text="(9370)" />
+            <Button 
+                android:id="@+id/employee_reservation_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_revation"
+                android:layout_alignParentBottom="true"
+               android:layout_marginBottom="20dip"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

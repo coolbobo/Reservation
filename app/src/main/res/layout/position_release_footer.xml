@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+  	 >
+  	<LinearLayout 
+  	    android:layout_width="match_parent"
+  	    android:layout_height="wrap_content"
+  	    >
+  	    <ImageView 
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content"
+  	        android:layout_weight="1"
+  	        android:contentDescription="@null"
+  	        android:src="@drawable/inserphone"
+  	        />
+  	    
+  	     <ImageView 
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content"
+  	        android:layout_weight="1"
+  	        android:contentDescription="@null"
+  	        android:src="@drawable/inserphone"
+  	        />
+  	     
+  	     
+  	      <ImageView 
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content"
+  	        android:layout_weight="1"
+  	        android:contentDescription="@null"
+  	        android:src="@drawable/inserphone"
+  	        />
+  	      
+  	      
+  	       <ImageView 
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content"
+  	        android:layout_weight="1"
+  	        android:contentDescription="@null"
+  	        android:src="@drawable/inserphone"
+  	        />
+  	       
+  	        <ImageView 
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content"
+  	        android:layout_weight="1"
+  	        android:contentDescription="@null"
+  	        android:src="@drawable/inserphone"
+  	        />
+  	        
+  	        
+  	         <ImageView 
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content"
+  	        android:layout_weight="1"
+  	        android:contentDescription="@null"
+  	        android:src="@drawable/inserphone"
+  	        />
+  	</LinearLayout> 
+  	<LinearLayout 
+  	    android:layout_width="match_parent"
+  	    android:layout_height="match_parent"
+  	    android:gravity="center"
+  	    >
+  	    <Button android:id="@+id/release_btnfabu"
+  	        	android:layout_width="wrap_content"
+  	        	android:layout_height="wrap_content"
+  	        	android:background="@drawable/releser"
+  	        	
+  	        />
+  	    
+  	</LinearLayout>
+  	
+</LinearLayout>
+

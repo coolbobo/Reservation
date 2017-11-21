@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dip"
+     ><!-- 主体 -->
+    <RelativeLayout
+        android:id="@+id/login_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+    	android:paddingTop="50dip"     
+         >
+
+        <!-- 用户名 -->
+
+        <TextView
+            android:id="@+id/login_body_username_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/login_body_username_text"
+            android:textColor="#6c6c6c"
+            android:textSize="16sp" />
+        <!-- 用户名输入框 -->
+
+        <EditText
+            android:id="@+id/login_body_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/login_body_username_text"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@id/login_body_username_text"
+            android:background="@drawable/input_phone"
+            android:hint="@string/login_body_username"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColor="#b5b5b5"
+            
+            >
+		
+			</EditText>
+        <!-- 密码 -->
+
+        <TextView
+            android:id="@+id/login_body_password_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login_body_username_text"
+            android:layout_marginLeft="5dp"
+            android:text="@string/login_body_password_text"
+            android:textColor="#6c6c6c"
+            android:textSize="16sp"       
+            android:layout_marginTop="30dip"
+            android:singleLine="true"
+            />
+        <!-- 密码输入框 -->
+
+        <EditText
+            android:id="@+id/login_body_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/login_body_password_text"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@id/login_body_username_text"
+            android:background="@drawable/input_phone"
+            android:hint="@string/login_body_password"
+            android:inputType="textPassword"
+            android:textColor="#b5b5b5" 
+            android:layout_marginTop="30dip"
+            />
+        <!-- 忘记密码 -->
+
+        <TextView
+            android:id="@+id/login_body_forget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/login_body_password_text"
+            android:text="@string/login_body_forget"
+            android:textColor="#d61b24"
+            android:layout_marginTop="30dip"
+            android:textSize="16sp" />
+        <!-- 登录按钮 -->
+
+        <Button
+            android:id="@+id/login_body_btn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/login_body_forget"
+            android:background="@drawable/login_selected"
+            android:layout_marginTop="30dip"
+         />
+
+    <TextView
+        android:id="@+id/login_my_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/login_body_btn"
+        android:layout_marginTop="30dp"
+        android:text="@string/login_my_register_right"
+        android:textColor="#ff0000" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_body_btn"
+        android:layout_marginTop="30dp"
+        android:layout_toLeftOf="@id/login_my_register"
+        android:text="@string/login_my_register_left"
+        android:textColor="#999999" 
+        />
+    </RelativeLayout>
+</RelativeLayout>

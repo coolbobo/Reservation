@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="5dip"
+    >
+    <ListView
+            android:id="@+id/information_all"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:cacheColorHint="#ff0000"    
+            android:background="@color/white"
+            android:divider="@null"
+            android:dividerHeight="10dip"
+            android:fadingEdge="none"
+            android:fadingEdgeLength="0dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:scrollbars="none" >
+        </ListView>       
+</RelativeLayout>

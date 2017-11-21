@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 注册页面 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:gravity="center"
+    android:paddingLeft="20dip"
+    android:paddingRight="20dip"
+  	 >
+   <LinearLayout 
+       android:id="@+id/position_bottombg"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="@drawable/position_select"
+       android:orientation="horizontal"
+       >
+       <TextView 
+           android:id="@+id/position_all"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:background="@drawable/position_hua"
+           android:gravity="center"
+           android:text="全      城"
+           />
+       
+       <TextView 
+           android:id="@+id/position_fujin"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:gravity="center"
+           android:text="附     近"
+           />
+       
+       <TextView 
+           android:id="@+id/position_sure"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:text="放心企业"
+           android:gravity="center"
+           />
+   </LinearLayout>
+</RelativeLayout>

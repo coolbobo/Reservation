@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\regedit_selected.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable\\regedit_selected.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_selected.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable\\login_selected.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\regedit_validate.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable\\regedit_validate.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\about_me_checkbox.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable\\about_me_checkbox.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\main_reveravtionselect.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable\\main_reveravtionselect.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\main_footerselect.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable\\main_footerselect.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\main_haircutselect.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable\\main_haircutselect.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable\\shadow.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\leftmain_shopselect.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable\\leftmain_shopselect.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\reveration_selectcancle.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable\\reveration_selectcancle.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\reveration_selectok.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable\\reveration_selectok.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\leftmain_workselect.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable\\leftmain_workselect.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\border.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable\\border.xml"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\top_goback.xml",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable\\top_goback.xml"
+    }
+]

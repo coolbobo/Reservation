@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:id="@+id/store"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- 顶部广告区域 -->
+
+        <RelativeLayout
+            android:id="@+id/adverst"
+            android:layout_width="match_parent"
+            android:layout_height="100dip" >
+
+            <HorizontalScrollView
+                android:id="@+id/horizonScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="100dip"
+                android:scrollbars="none" >
+
+                <comm.CustomGallery
+                    android:id="@+id/adverlists"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+                </comm.CustomGallery>
+            </HorizontalScrollView>
+
+            <ImageView
+                android:id="@+id/adver_gundong3"
+                android:layout_width="10dip"
+                android:layout_height="10dip"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dip" />
+
+            <ImageView
+                android:id="@+id/adver_gundong2"
+                android:layout_width="10dip"
+                android:layout_height="10dip"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_toLeftOf="@id/adver_gundong3" />
+
+            <ImageView
+                android:id="@+id/adver_gundong1"
+                android:layout_width="10dip"
+                android:layout_height="10dip"
+                android:layout_alignParentBottom="true"
+                android:layout_toLeftOf="@id/adver_gundong2" />
+        </RelativeLayout>
+
+        <!-- 店家展示区 -->
+
+        <RelativeLayout
+            android:id="@+id/store_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dip"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip" >
+
+            <Spinner
+                android:id="@+id/business_province_sp"
+                android:layout_width="75dip"
+                android:layout_height="35dip"
+                android:layout_marginTop="5dip"
+                android:background="@drawable/spinner" />
+
+            <Spinner
+                android:id="@+id/business_city_sp"
+                android:layout_width="75dip"
+                android:layout_height="35dip"
+                android:layout_marginLeft="5dip"
+                android:layout_marginTop="5dip"
+                android:layout_toRightOf="@+id/business_province_sp"
+                android:background="@drawable/spinner" />
+
+            <Spinner
+                android:id="@+id/business_area_sp"
+                android:layout_width="115dip"
+                android:layout_height="35dip"
+                android:layout_marginLeft="5dip"
+                android:layout_marginTop="5dip"
+                android:layout_toRightOf="@+id/business_city_sp"
+                android:background="@drawable/spinner" />
+
+            <Button
+                android:id="@+id/btn_searchstore"
+                android:layout_width="60dip"
+                android:layout_height="30dip"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="8dip"
+                android:background="@drawable/stores_search" />
+
+            <!-- 推荐店 -->
+
+            <RelativeLayout
+                android:id="@+id/store_choose_tui"
+                android:layout_width="match_parent"
+                android:layout_height="300dip"
+                android:layout_below="@id/business_province_sp"
+                android:layout_marginTop="5dip"
+                android:background="@drawable/haridressing_tui" >
+
+                <RelativeLayout
+                    android:id="@+id/choose_more"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dip"
+                    android:layout_alignParentTop="true" >
+
+                    <TextView
+                        android:layout_width="70dip"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dip"
+                        android:text="推荐店"
+                        android:textColor="@color/sotre_busniess_title"
+                        android:textSize="@dimen/title_dimen" />
+
+                    <Button
+                        android:id="@+id/choose_shop_more"
+                        android:layout_width="100dip"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:background="@null"
+                        android:text="@string/choose_shop_more"
+                        android:textColor="@color/sotre_busniess_title"
+                        android:textSize="@dimen/title_dimen" />
+                </RelativeLayout>
+
+                <ListView
+                    android:id="@+id/store_list"
+                    android:layout_width="fill_parent"
+                    android:layout_height="270dip"
+                    android:layout_below="@id/choose_more"
+                    android:layout_marginBottom="5dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_marginTop="10dip"
+                    android:divider="@null"
+                    android:dividerHeight="5dip"
+                    android:scrollbars="none" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/person_faxing"
+                android:layout_width="match_parent"
+                android:layout_height="120dip"
+                android:layout_below="@id/store_choose_tui"
+                android:layout_marginTop="5dip"
+                android:background="@drawable/hairdressing_recommend" >
+
+                <TextView
+                    android:id="@+id/haird_resser"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dip"
+                    android:layout_marginLeft="10dip"
+                    android:text="人气发型师"
+                    android:textColor="@color/sotre_busniess_title"
+                    android:textSize="@dimen/title_dimen" />
+                <!-- 人气发型师 -->
+
+                <HorizontalScrollView
+                    android:id="@+id/haird_resser_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dip"
+                    android:layout_below="@id/haird_resser"
+                    android:orientation="vertical"
+                    android:scrollbars="none" >
+                </HorizontalScrollView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/person_sure"
+                android:layout_width="match_parent"
+                android:layout_height="60dip"
+                android:layout_below="@id/person_faxing"
+                android:layout_marginTop="5dip"
+                android:background="@drawable/hairdreesing_zixun" >
+
+                <RelativeLayout
+                    android:id="@+id/zixun"
+                    android:layout_width="200dip"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/zixun_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dip"
+                        android:layout_marginLeft="5dip"
+                        android:text="@string/hairdreeing_zixun" />
+
+                    <ImageView
+                        android:id="@+id/zixun_image"
+                        android:layout_width="40dip"
+                        android:layout_height="40dip"
+                        android:layout_below="@id/zixun_title"
+                        android:layout_marginLeft="5dip"
+                        android:src="@drawable/hairdreeing_zixun" />
+
+                    <LinearLayout
+                        android:id="@+id/zixun_right"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@id/zixun_title"
+                        android:layout_toRightOf="@id/zixun_image"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="@string/hairdreeing_title" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:ellipsize="end"
+                            android:ems="18"
+                            android:singleLine="true"
+                            android:text="@string/hairdreeing_content" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/service"
+                    android:layout_width="100dip"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@id/zixun"
+                    android:paddingLeft="30dip" >
+
+                    <TextView
+                        android:id="@+id/zixun_service"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dip"
+                        android:text="@string/hairdreeing_service" />
+
+                    <TextView
+                        android:id="@+id/zixun_sure"
+                        android:layout_width="match_parent"
+                        android:layout_height="15dip"
+                        android:layout_below="@id/zixun_service"
+                        android:text="@string/hairdreeing_life"
+                        android:textSize="12sp" />
+
+                    <RelativeLayout
+                        android:id="@+id/zixun_qiuit"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@id/zixun_sure"
+                        android:orientation="horizontal"
+                        android:paddingRight="10dip" >
+
+                        <ImageView
+                            android:id="@+id/product_sure"
+                            android:layout_width="25dip"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentRight="true"
+                            android:src="@drawable/product_sure" />
+
+                        <ImageView
+                            android:id="@+id/quit"
+                            android:layout_width="25dip"
+                            android:layout_height="match_parent"
+                            android:layout_toLeftOf="@id/product_sure"
+                            android:src="@drawable/quit" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

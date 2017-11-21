@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 注册页面 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dip"
+    android:background="@drawable/position_topnav"
+    android:orientation="horizontal"
+    android:gravity="center"
+  	 >
+    <Spinner 
+        android:id="@+id/position_area"
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dip"
+        android:gravity="center"
+        android:background="@drawable/revervation_spinner"
+        /> 
+    <Spinner 
+        android:id="@+id/position_job"
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dip"
+        android:gravity="center"
+        android:background="@drawable/revervation_spinner"
+        /> 
+        
+   <Spinner 
+        android:id="@+id/position_salary"
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dip"
+        android:gravity="center"
+        android:background="@drawable/reveration_date"
+        /> 
+        
+   <Button android:id="@+id/position_filter"
+       	android:layout_width="match_parent"
+       	android:layout_height="30dip"
+       	android:layout_weight="1"
+        android:layout_marginLeft="10dip"
+        android:gravity="center"
+        android:background="@null"
+       	android:text="筛选"
+       />
+</LinearLayout>

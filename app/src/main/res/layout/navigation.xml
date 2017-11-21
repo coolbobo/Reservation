@@ -1,0 +1,88 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    
+     <ViewFlipper
+        android:id="@+id/viewflipper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+       />
+    <LinearLayout
+        android:id="@+id/ll_dot"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:paddingBottom="10dp" 
+        >
+        <ImageView
+            android:id="@+id/iv_1"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:clickable="true"
+            android:background="@drawable/dotselected"
+            
+            />
+		<ImageView
+            android:id="@+id/iv_2"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+			android:clickable="true"
+			android:background="@drawable/dotselected"
+			android:layout_marginLeft="10dip"
+            />      
+       <ImageView
+            android:id="@+id/iv_3"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:clickable="true"
+            android:background="@drawable/dotselected"
+            android:layout_marginLeft="10dip"
+             />
+       <ImageView
+            android:id="@+id/iv_4"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:clickable="true"
+            android:background="@drawable/dotselected"
+            android:layout_marginLeft="10dip"
+             />
+       
+        <ImageView
+            android:id="@+id/iv_5"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:clickable="true"
+            android:background="@drawable/dotselected"
+            android:layout_marginLeft="10dip"
+            
+           />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/revation_btn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:paddingBottom="30dp"
+        
+        >
+        <Button 
+            android:id="@+id/revation_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.3"
+            android:text="立即体验"
+            android:textColor="@color/blue" 
+            
+            />
+       
+    </LinearLayout>
+    
+</FrameLayout>
+ 
+

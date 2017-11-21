@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/haircutmain"
+    android:paddingLeft="5dip"
+    android:paddingRight="5dip">
+	<FrameLayout 
+	    android:id="@+id/product_top"
+	    android:layout_width="match_parent"
+	    android:layout_height="150dip">
+	    <include layout="@layout/product_top"/>
+    </FrameLayout> 
+	<FrameLayout android:id="@+id/product_body"
+	    	  android:layout_width="match_parent"
+	    	  android:layout_height="match_parent"
+	    	  android:layout_below="@id/product_top"
+	    	  android:background="@color/white"
+	    	  android:paddingLeft="5dip"
+	    	  android:paddingRight="5dip"
+	    	  android:layout_marginTop="10dip"
+	    	  >
+	    <ListView 
+            android:id="@+id/product_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000"
+            android:dividerHeight="10dip"
+            android:divider="@null"
+            android:scrollbars="none"
+            >
+	    </ListView>
+    </FrameLayout> 
+</RelativeLayout>

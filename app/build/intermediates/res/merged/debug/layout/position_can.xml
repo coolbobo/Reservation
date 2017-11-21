@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 注册页面 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/positionbg"
+    android:padding="10dip"
+  	 >
+    <!-- 手机号仅用于获取验证码，不会向第三方公开。 -->
+    <LinearLayout
+        android:id="@+id/login_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+         >
+	<FrameLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="40dip"
+	  
+	 >
+	 	<include  layout="@layout/position_nav"/>
+	 </FrameLayout>  
+	<FrameLayout 
+	    	  android:layout_width="match_parent"
+	    	  android:layout_height="match_parent"
+	    	  android:layout_marginTop="10dip"
+	    	  android:layout_weight="1">
+	 		<ListView 
+	 		    android:id="@+id/position_show"
+	 		    android:layout_width="match_parent"
+	 		    android:layout_height="match_parent"
+	 		    android:divider="@null"
+	 		    android:dividerHeight="5dip"
+	 		    android:cacheColorHint="@color/transparent"
+	 		    android:fadingEdge="vertical"  
+	 		    />
+	</FrameLayout>    
+	<FrameLayout
+	    	  android:layout_width="match_parent"
+	    	  android:layout_height="match_parent"
+	    	  android:layout_weight="4"
+	    	 
+	>
+	    <include  layout="@layout/position_bottom"/>
+	    
+	</FrameLayout>
+	</LinearLayout>
+</RelativeLayout>

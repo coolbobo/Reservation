@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+   	     
+    <RelativeLayout 
+        	android:id="@+id/information_relative"
+        	android:layout_width="match_parent"
+        	android:layout_height="80dip"
+        	android:background="@drawable/zixun_information"
+        	>
+   	 <ImageView
+                android:id="@+id/information_image"
+                android:layout_width="40dip"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dip"
+                android:src="@drawable/hairdreeing_zixun" />
+
+                <LinearLayout
+                    android:id="@+id/information_right"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                   	android:layout_marginLeft="5dip"
+                    android:layout_toRightOf="@id/information_image"
+                    android:orientation="vertical"
+                    android:paddingTop="10dip"
+                    android:paddingBottom="10dip"
+                    android:layout_marginTop="5dip"
+                    android:layout_marginBottom="5dip"
+                     >
+
+                    <TextView
+                        android:id="@+id/information_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/hairdreeing_title" />
+
+                    <TextView
+                        android:id="@+id/information_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:ems="18"
+                        android:singleLine="true"
+                        android:text="@string/hairdreeing_content" />
+                </LinearLayout>
+        </RelativeLayout>
+</RelativeLayout>

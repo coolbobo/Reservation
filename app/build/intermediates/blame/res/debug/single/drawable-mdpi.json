@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\home_default_button_press.9.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-mdpi\\home_default_button_press.9.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\spinner.9.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-mdpi\\spinner.9.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\dialog_keyboard.9.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-mdpi\\dialog_keyboard.9.png"
+    }
+]

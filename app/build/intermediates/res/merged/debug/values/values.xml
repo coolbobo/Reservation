@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="reservationtime">
+           <item>18:00-20:00</item>
+           <item>20:00-22:00</item>
+           <item>22:00-24:00</item>
+           <item>00:00-02:00</item>
+           <item>02:00-04:00</item>
+           <item>04:00-06:00</item>
+           <item>06:00-08:00</item>
+           <item>08:00-10:00</item>
+           <item>10:00-12:00</item>
+           <item>12:00-14:00</item>
+           <item>14:00-16:00</item>
+           <item>16:00-18:00</item>
+       </string-array>
+    <color name="black">#ff000000</color>
+    <color name="blue">#ff0000ff</color>
+    <color name="cyan">#ff00ffff</color>
+    <color name="darkgray">#938192</color>
+    <color name="dkgray">#80808FF0</color>
+    <color name="gray">#ff888888</color>
+    <color name="green">#ff00ff00</color>
+    <color name="lightgreen">#7cd12e</color>
+    <color name="ltgray">#ffcccccc</color>
+    <color name="magenta">#ffff00ff</color>
+    <color name="personage_black">#000000</color>
+    <color name="personage_green">#00ff00</color>
+    <color name="personage_white">#ffffff</color>
+    <color name="red">#ffff0000</color>
+    <color name="sotre_busniess_title">#b5b5b5</color>
+    <color name="title_color">#ff0000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yello">#F8F8FF00</color>
+    <dimen name="content_dimen">16sp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">5dp</dimen>
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="title_dimen">18sp</dimen>
+    <integer name="num_cols">1</integer>
+    <string name="Consumption_type">消费套餐 :</string>
+    <string name="about_revevation_01">10</string>
+    <string name="about_revevation_02">0</string>
+    <string name="about_revevation_03">20</string>
+    <string name="about_revevation_04">6</string>
+    <string name="about_revevation_05">36</string>
+    <string name="about_revevation_06">预约 </string>
+    <string name="about_revevation_07">充值</string>
+    <string name="about_revevation_08">收藏</string>
+    <string name="about_revevation_09">回复</string>
+    <string name="about_revevation_10">积分</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_downloading">应用正在后台下载</string>
+    <string name="app_name">Reservation</string>
+    <string name="cancel">取消</string>
+    <string name="choose_shop_more"> &lt;&lt;更多 </string>
+    <string name="commodity_search_text">请输入关键词进行搜索</string>
+    <string name="commodity_shop">科技园沙宣店旗舰店</string>
+    <string name="commodity_shop_details">超精华KITOO卷发蛋白护理精华素20ml</string>
+    <string name="commodity_shop_price">888</string>
+    <string name="commodity_shop_price_left">本店售价：</string>
+    <string name="commodity_shop_price_right">元</string>
+    <string name="commodity_show_title">我</string>
+    <string name="current_address_sample">深圳</string>
+    <string name="current_address_tip">当前定位的城市:</string>
+    <string name="do_cancel">取消</string>
+    <string name="do_praise_fail">点赞失败</string>
+    <string name="do_praise_success">点赞成功</string>
+    <string name="do_sure">确定</string>
+    <string name="douban">豆瓣</string>
+    <string name="download_faield">下载失败</string>
+    <string name="dropbox">Dropbox</string>
+    <string name="email">邮件</string>
+    <string name="employee_name">路人甲</string>
+    <string name="employee_name_default">张杰</string>
+    <string name="employee_name_positon">沙宣店设计总监</string>
+    <string name="employee_name_shangchang">湖北人，从事理发行业20年，擅长发型设计，飘染</string>
+    <string name="evernote">印象笔记</string>
+    <string name="facebook">Facebook</string>
+    <string name="failed_to_start_incentive_page">无法打开“分享有奖页面”</string>
+    <string name="finish">完成</string>
+    <string name="flickr">Flickr</string>
+    <string name="foursquare">FourSquare</string>
+    <string name="fujin">附近</string>
+    <string name="get_valid_code">获取验证码</string>
+    <string name="google_plus_client_inavailable">Google+ 版本过低或者没有安装，需要升级或安装Google+才能使用！</string>
+    <string name="googleplus">Google+</string>
+    <string name="hairdreeing_content">活动日期6.21至6.22，在依广厂与您相会</string>
+    <string name="hairdreeing_life">消费保障</string>
+    <string name="hairdreeing_service">服务承诺</string>
+    <string name="hairdreeing_title">沙宣带你享受世界杯</string>
+    <string name="hairdreeing_zixun">潮流资讯</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="incentive_title">分享有奖</string>
+    <string name="instagram">Instagram</string>
+    <string name="instagram_client_inavailable">Instagram版本过低或者没有安装，需要升级或安装Instagram才能使用！</string>
+    <string name="kaixin">开心网</string>
+    <string name="linkedin">Linked In</string>
+    <string name="list_friends">%s的朋友</string>
+    <string name="loadjiazai">正在加载中...</string>
+    <string name="login_body_btn">登录</string>
+    <string name="login_body_forget">忘记密码？</string>
+    <string name="login_body_password">请输入密码</string>
+    <string name="login_body_password_text">密码：</string>
+    <string name="login_body_username">请输入用户名</string>
+    <string name="login_body_username_text">用户名：</string>
+    <string name="login_button">登录</string>
+    <string name="login_my_register_left">暂未有登录账号，</string>
+    <string name="login_my_register_right"><u>我要注册</u></string>
+    <string name="login_name">用户名</string>
+    <string name="login_pwd">密码</string>
+    <string name="login_title">用户登录</string>
+    <string name="mingdao">明道</string>
+    <string name="mingdao_share_content">网页分享</string>
+    <string name="msg_invalid_phone_code_numer">无效的手机注册码</string>
+    <string name="msg_invalid_phone_numer">无效的电话号码</string>
+    <string name="msg_login_success">登录成功</string>
+    <string name="msg_login_username_invalid">无效的用户名</string>
+    <string name="msg_login_userpassword_invalid">用户名或密码错误</string>
+    <string name="msg_regedit_success">注册成功</string>
+    <string name="msg_reservation_failed">预约失败</string>
+    <string name="msg_reservation_success">预约成功</string>
+    <string name="multi_share">图文分享</string>
+    <string name="my_cash_record">充值</string>
+    <string name="my_love_record">收藏</string>
+    <string name="my_reservation_record">预约</string>
+    <string name="myabout_cashes">充值记录</string>
+    <string name="myabout_revations">预约记录</string>
+    <string name="myabout_shouchangitem">收藏记录</string>
+    <string name="neteasemicroblog">网易微博</string>
+    <string name="personage_items_index_text">刘海龙，万科第五园沙宣店金牌发型设计师</string>
+    <string name="personage_my_collect">我的收藏</string>
+    <string name="personage_my_subscribe">我的预约</string>
+    <string name="personage_recharge">充值记录</string>
+    <string name="personage_title">个人中心</string>
+    <string name="phone">手机号码:</string>
+    <string name="phone_code_hint">输入验证码</string>
+    <string name="phone_hint">到店消费，自动返还5元话费到此号码上</string>
+    <string name="pinterest">Pinterest</string>
+    <string name="pinterest_client_inavailable">Pinterest版本过低或者没有安装，需要升级或安装Pinterest才能使用！</string>
+    <string name="position_area">区      域:</string>
+    <string name="position_birthDate">出身日期:</string>
+    <string name="position_detail">自我描述:</string>
+    <string name="position_exception">必须实现此接口</string>
+    <string name="position_experience">经      历:</string>
+    <string name="position_female">女</string>
+    <string name="position_gender">性      别:</string>
+    <string name="position_isUserName">用户名不能为空</string>
+    <string name="position_job">职位名称:</string>
+    <string name="position_male">男</string>
+    <string name="position_phone">联系电话:</string>
+    <string name="position_salary">期望薪资:</string>
+    <string name="position_userName">姓      名:</string>
+    <string name="position_workYear">工作年限:</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="qq">QQ</string>
+    <string name="qq_client_inavailable">QQ 版本过低或者没有安装，需要升级或安装QQ才能使用！</string>
+    <string name="qzone">QQ空间</string>
+    <string name="record_data_default">测试数据</string>
+    <string name="refreshing">刷新中…</string>
+    <string name="regedit">注册</string>
+    <string name="regedit_hint">输入手机号</string>
+    <string name="register_body_btn">注册</string>
+    <string name="register_body_phone">请输入手机号码</string>
+    <string name="register_body_verification">请输入验证码</string>
+    <string name="register_body_verification_btn">获取验证码</string>
+    <string name="register_header_text">手机号仅用于获取验证码，不会向第三方公开。</string>
+    <string name="register_my_login_left">现已有账户，</string>
+    <string name="register_my_login_right">我要登录</string>
+    <string name="register_title">用手机注册</string>
+    <string name="release_to_refresh">松开刷新</string>
+    <string name="renren">人人网</string>
+    <string name="reservation_time">预约时间 :</string>
+    <string name="revation_des1"/>
+    <string name="revation_des2">保障服务说明</string>
+    <string name="revation_des3">保障服务说明</string>
+    <string name="revation_des4">保障服务说明</string>
+    <string name="revation_des5">保障服务说明</string>
+    <string name="revation_des6">保障服务说明</string>
+    <string name="revation_des7">保障服务说明</string>
+    <string name="revation_des8">保障服务说明</string>
+    <string name="revation_service">保障服务说明</string>
+    <string name="select_one_plat_at_least">请选择一个目标平台</string>
+    <string name="selected_address">选择位置</string>
+    <string name="shake2share">摇晃手机！</string>
+    <string name="share">分享</string>
+    <string name="share_canceled">分享已取消</string>
+    <string name="share_completed">分享成功</string>
+    <string name="share_failed">分享失败</string>
+    <string name="share_to">分享到</string>
+    <string name="share_to_mingdao">分享到明道</string>
+    <string name="share_to_qzone">分享到QQ空间</string>
+    <string name="sharing">分享操作正在后台进行…</string>
+    <string name="shortmessage">信息</string>
+    <string name="show_recruit_text">求职专区</string>
+    <string name="show_shop_text">商品展示</string>
+    <string name="sinaweibo">新浪微博</string>
+    <string name="sohumicroblog">搜狐微博</string>
+    <string name="sohusuishenkan">搜狐随身看</string>
+    <string name="store_address_default">400-12345678</string>
+    <string name="store_adver_title_default">欢迎光临布吉沙宣旗舰店</string>
+    <string name="store_description">该公司依托于专业的理发团队，为大众提供更好的服务，让我们的生活充满者美好，让我们生活充满自信</string>
+    <string name="store_name_default">南山沙宣旗舰店</string>
+    <string name="store_sale_default">布吉沙宣旗舰店热销商品展示区</string>
+    <string name="tencentweibo">腾讯微博</string>
+    <string name="top_about_you">约我</string>
+    <string name="top_cosmetology">我要美容</string>
+    <string name="top_foot">我要足疗</string>
+    <string name="top_haricut">我要理发</string>
+    <string name="top_head_title">约我</string>
+    <string name="top_login">用户登陆</string>
+    <string name="top_order">我要预约</string>
+    <string name="top_person">个人中心</string>
+    <string name="top_rediget">用户注册</string>
+    <string name="top_store">科技园沙宣旗舰店</string>
+    <string name="tumblr">Tumblr</string>
+    <string name="twitter">Twitter</string>
+    <string name="vkontakte">VK</string>
+    <string name="website">http://www.shareSDK.cn</string>
+    <string name="wechat">微信好友</string>
+    <string name="wechat_client_inavailable">目前您的微信版本过低或未安装微信，需要安装微信才能使用</string>
+    <string name="wechatfavorite">微信收藏</string>
+    <string name="wechatmoments">微信朋友圈</string>
+    <string name="weibo_oauth_regiseter">应用授权</string>
+    <string name="weibo_upload_content">分享图片</string>
+    <string name="yixin">易信</string>
+    <string name="yixin_client_inavailable">目前您的易信版本过低或未安装易信，需要安装易信才能使用</string>
+    <string name="yixinmoments">易信朋友圈</string>
+    <string name="youdao">有道云笔记</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+		<item name="android:windowFrame">@null</item>
+    	<item name="android:windowIsFloating">true</item>
+    	<item name="android:windowContentOverlay">@null</item>
+    	<item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    	<item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+	</style>
+    <style name="CustomProgressDialog" parent="@style/CustomDialog">
+		<item name="android:windowBackground">@android:color/transparent</item>
+    	<item name="android:windowNoTitle"> true</item>
+	</style>
+    <style name="reservation_theme" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+         </style>
+    <style name="title_text">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

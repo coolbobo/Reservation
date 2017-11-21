@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dip"
+    android:background="@drawable/haircut_top" >
+
+    <RelativeLayout
+        android:id="@+id/top_reservation_layout"
+        android:layout_width="150dip"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/top_reservation_img"
+            android:layout_width="25dip"
+            android:layout_height="30dip"
+            android:layout_marginLeft="10dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/private_main" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/app_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_toRightOf="@id/top_reservation_img"
+             />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/top_back_layout"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="10dip"
+        android:layout_toRightOf="@+id/top_reservation_layout"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/go_back_img"
+            android:layout_width="25dip"
+            android:layout_height="30dip"
+            android:scaleType="fitXY"
+             />
+
+        <TextView
+            android:id="@+id/top_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dip"
+            android:layout_toRightOf="@+id/go_back_img"
+            android:textColor="@color/white"
+            android:textSize="21sp" >
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/top_aboutme_layout"
+        android:layout_width="35dip"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical" >
+        <ImageView
+            android:id="@+id/top_about_me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/about" >
+        </ImageView>
+    </RelativeLayout>
+
+</RelativeLayout>

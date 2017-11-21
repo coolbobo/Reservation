@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dip"
+    android:orientation="horizontal"
+    android:paddingLeft="20dip"
+    android:paddingRight="20dip"
+    android:paddingTop="5dip"
+    android:paddingBottom="5dip"
+  	 >
+  	<TextView 
+  	    android:layout_width="70dip"
+  	    android:layout_height="match_parent"
+  	    android:gravity="center"
+  	    android:text="@string/position_userName"
+  	    />
+  	<EditText 
+  	    android:id="@+id/resumeName"
+  	    android:layout_width="match_parent"
+  	    android:layout_height="match_parent"
+  	    android:gravity="center_vertical"
+  	   	android:background="@drawable/input_phone"
+  	    />
+</LinearLayout>

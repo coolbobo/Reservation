@@ -1,0 +1,1061 @@
+package service;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+
+import messageAdapter.CmdMessage;
+import messageAdapter.MessageAdapter;
+import model.AdvertisementBean;
+import model.BaseRecordHisBean;
+import model.EmployeesBean;
+import model.ProductBean;
+import model.ReservationBean;
+import model.StoreBean;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import view.IViewDataObserver;
+import android.content.Context;
+import android.os.Message;
+import bussinessModel.ViewInfoBean;
+
+import com.loopj.android.http.AsyncHttpResponseHandler;
+import com.loopj.android.http.JsonHttpResponseHandler;
+import com.loopj.android.http.RequestParams;
+import com.owned.reservation.R;
+import comm.AppContext;
+import comm.Consts;
+import comm.GPSLocation;
+import comm.observer.GlobalHandler;
+import comm.observer.GlobalHandlerAdapter;
+
+import conn.HttpUtil;
+
+/**
+ * 业务服务类，用于服务各个界面
+ * 
+ * @author Administrator
+ * 
+ */
+public class ReservationService
+{
+
+	private Context mContext;
+
+	// 充值记录
+	public ArrayList<BaseRecordHisBean> cashHisList = null;
+
+	// 预约记录
+	public ArrayList<BaseRecordHisBean> reservationHisList = null;
+
+	// 收藏记录
+	public ArrayList<BaseRecordHisBean> loveHistList = null;
+
+	// 店家列表
+	public ArrayList<StoreBean> storeList = null;
+
+	// 浏览历史记录
+	private LinkedList<ViewInfoBean> historyViewRouteList = null;
+
+	// 广告列表
+	public ArrayList<AdvertisementBean> adverList = null;
+
+	// 店員列表
+	public ArrayList<EmployeesBean> employeesList = null;
+
+	/* 产品列表 */
+	public ArrayList<ProductBean> productesList = null;
+
+	// 消息接收和发送适配器
+	public MessageAdapter messageAdapter = null;
+
+	// 观察者列表
+	private HashMap<Integer, ArrayList<IViewDataObserver>> ObservedList = null;
+
+	// 支持的区域列表
+	public ArrayList<String> supportProvinceList = null;
+	public HashMap<String, ArrayList<String>> supportCityMap = null;
+	public HashMap<String, ArrayList<String>> supportAreaMap = null;
+
+	public String mValue;
+
+	/**
+	 * 构造函数
+	 */
+	public ReservationService()
+	{
+		// 初始化数据容器对象，对于装载内存数据
+		cashHisList = new ArrayList<BaseRecordHisBean>();
+		reservationHisList = new ArrayList<BaseRecordHisBean>();
+		loveHistList = new ArrayList<BaseRecordHisBean>();
+		storeList = new ArrayList<StoreBean>();
+		adverList = new ArrayList<AdvertisementBean>();
+		employeesList = new ArrayList<EmployeesBean>();
+		historyViewRouteList = new LinkedList<ViewInfoBean>();
+		ObservedList = new HashMap<Integer, ArrayList<IViewDataObserver>>();
+		productesList = new ArrayList<ProductBean>();
+
+		supportProvinceList = new ArrayList<String>();
+		supportCityMap = new HashMap<String, ArrayList<String>>();
+		supportAreaMap = new HashMap<String, ArrayList<String>>();
+
+		// 初始化全局变量
+		messageAdapter = new MessageAdapter();
+
+		// TODO:加载测试数据，后续正式上线会将数据删除。
+		_initTestData();
+
+	}
+
+	/**
+	 * 注册观察者
+	 * 
+	 * @param keyValue
+	 * @param view
+	 */
+	public void regeditObserver(int keyValue, IViewDataObserver view)
+	{
+		ArrayList<IViewDataObserver> observedList = ObservedList.get(keyValue);
+		if (observedList == null)
+		{
+			observedList = new ArrayList<IViewDataObserver>();
+			ObservedList.put(keyValue, observedList);
+		}
+		if (observedList.contains(view))
+		{
+			return;
+		}
+		observedList.add(view);
+	}
+
+	/**
+	 * 通知观察者，刷新界面
+	 * 
+	 * @param paramInteger
+	 * @param paramObject
+	 */
+	public void noticeViewDataChange(Integer keyValue, Object value)
+	{
+		ArrayList<IViewDataObserver> observedList = ObservedList.get(keyValue);
+		if (observedList == null)
+		{
+			return;
+		}
+		GlobalHandler handler = AppContext.instance().globalHandler;
+		Iterator<IViewDataObserver> observedIterator = observedList.iterator();
+		while (observedIterator.hasNext())
+		{
+			IViewDataObserver observerView = (IViewDataObserver) observedIterator.next();
+			if (observerView == null)
+			{
+				continue;
+			}
+			GlobalHandlerAdapter globalHandlerAdapter = new GlobalHandlerAdapter(observerView, keyValue.intValue(),
+					value);
+			Message observerMsg = Message.obtain();
+			observerMsg.obj = globalHandlerAdapter;
+			handler.sendMessage(observerMsg);
+		}
+	}
+
+	/**
+	 * 反注册观察者
+	 * 
+	 * @param keyValue
+	 * @param view
+	 */
+	public void unRegeditObserver(int keyValue, IViewDataObserver view)
+	{
+		ArrayList<IViewDataObserver> noticeList = (ArrayList<IViewDataObserver>) ObservedList.get(keyValue);
+		if (noticeList != null)
+		{
+			noticeList.remove(view);
+		}
+	}
+
+	/**
+	 * 根据值，获取下拉列表的位置
+	 * 
+	 * @param dataValue
+	 * @param arrayData
+	 * @return
+	 */
+	public int getPosByData(String dataValue, ArrayList<String> arrayData)
+	{
+		if (arrayData == null || arrayData.size() == 0)
+		{
+			return -1;
+		}
+		String compareValue = null;
+		for (int i = 0; i < arrayData.size(); i++)
+		{
+			compareValue = arrayData.get(i);
+
+			if (dataValue.equalsIgnoreCase(compareValue))
+			{
+				return i;
+			}
+		}
+		return -1;
+	}
+
+	/**
+	 * 为店家点赞，将数据传递到后台
+	 * 
+	 * @param storeID
+	 */
+	public void sendCmdAddStorePraise(int storeID)
+	{
+		RequestParams params = new RequestParams();
+		params.put("value", storeID);
+		// 下发赞命令给服务端，更新到数据库后台中
+		HttpUtil.get(CmdMessage.CMD_ADD_PRAISE, params, new JsonHttpResponseHandler()
+		{
+			public void onSuccess(JSONArray arg0)
+			{ // 成功后返回一个JSONArray数据
+			};
+
+			public void onFailure(Throwable arg0)
+			{
+			};
+
+			public void onFinish()
+			{
+			};
+
+			public void onSuccess(JSONObject arg0)
+			{ // 返回的是JSONObject，会调用这里
+			};
+		});
+
+	}
+
+	/**
+	 * 获取支持的省份，数据在登录系统时从后台获取，使用时，只需要做过滤。
+	 * 
+	 * @return
+	 */
+	public void sendCmdGetSupportProvince()
+	{
+		HttpUtil.get(CmdMessage.CMD_GET_SUPPORT_PROVINCE, new JsonHttpResponseHandler()
+		{
+			public void onSuccess(JSONArray arg0)
+			{ // 成功后返回一个JSONArray数据
+				supportProvinceList = messageAdapter.tranData2SupportProvince(arg0);
+			};
+
+			public void onFailure(Throwable arg0)
+			{
+			};
+
+			public void onFinish()
+			{
+			};
+
+			public void onSuccess(JSONObject arg0)
+			{ // 返回的是JSONObject，会调用这里
+			};
+		});
+	}
+
+	/**
+	 * 获取支持业务的市，数据登录时从后台获取，使用时，只需要过滤。
+	 * 
+	 * @param provinceID
+	 * @return
+	 */
+	public void sendCmdGetSupportCity()
+	{
+		HttpUtil.get(CmdMessage.CMD_GET_SUPPORT_CITY, new JsonHttpResponseHandler()
+		{
+			public void onSuccess(JSONArray arg0)
+			{ // 成功后返回一个JSONArray数据
+				supportCityMap = messageAdapter.tranData2SupportCity(arg0);
+			};
+
+			public void onFailure(Throwable arg0)
+			{
+			};
+
+			public void onFinish()
+			{
+			};
+
+			public void onSuccess(JSONObject arg0)
+			{ // 返回的是JSONObject，会调用这里
+			};
+		});
+	}
+
+	/**
+	 * 只要支持的市，所有的区都会支持的。
+	 * 
+	 * @param cityName
+	 * @return
+	 */
+	public void sendCmdGetSupportArea()
+	{
+		HttpUtil.get(CmdMessage.CMD_GET_SUPPORT_AREA, new JsonHttpResponseHandler()
+		{
+			public void onSuccess(JSONArray arg0)
+			{ // 成功后返回一个JSONArray数据
+				supportAreaMap = messageAdapter.tranData2SupportArea(arg0);
+			};
+
+			public void onFailure(Throwable arg0)
+			{
+			};
+
+			public void onFinish()
+			{
+			};
+
+			public void onSuccess(JSONObject arg0)
+			{ // 返回的是JSONObject，会调用这里
+			};
+		});
+	}
+
+	/**
+	 * 点击赞事件
+	 * 
+	 * @param employeeID
+	 */
+	public int sendCmdDoPraiseEmployee(int employeeID)
+	{
+		HttpUtil.get(CmdMessage.CMD_GET_SUPPORT_AREA, new AsyncHttpResponseHandler()
+		{
+			public void onSuccess(String arg0)
+			{ // 成功后返回一个JSONArray数据
+
+			};
+
+			public void onFailure(Throwable arg0)
+			{
+			};
+
+			public void onFinish()
+			{
+			};
+
+		});
+		return -1;
+	}
+
+	/**
+	 * 获取短信注册验证码
+	 * 
+	 * @return
+	 */
+	public String sendCmdGetPhoneCode()
+	{
+		mValue = null;
+		HttpUtil.get(CmdMessage.CMD_GET_PHONE_CODE, new AsyncHttpResponseHandler()
+		{
+			public void onSuccess(String arg0)
+			{
+				mValue = arg0;
+
+			};
+
+			public void onFailure(Throwable arg0)
+			{
+			};
+
+			public void onFinish()
+			{
+			};
+
+		});
+
+		return mValue;
+	}
+
+	/**
+	 * 注册用户名
+	 * 
+	 * @param name
+	 * @param phoneCode
+	 */
+	public int sendCmdRegeditUser(String name, String phoneCode)
+	{
+		int result = -1;
+		RequestParams params = new RequestParams();
+		params.put("name", name);
+		params.put("phoneCode", phoneCode);
+		// 下发赞命令给服务端，更新到数据库后台中
+		HttpUtil.get(CmdMessage.CMD_REGEDIT, params, new AsyncHttpResponseHandler()
+		{
+			public void onSuccess(String arg0)
+			{
+			};
+
+			public void onFailure(Throwable arg0)
+			{
+			};
+
+			public void onFinish()
+			{
+			};
+		});
+		return result;
+	}
+
+	public int sendCmdLogin(String userName, String pwd)
+	{
+		int result = -1;
+		RequestParams params = new RequestParams();
+		params.put("userName", userName);
+		params.put("password", pwd);
+		// 下发赞命令给服务端，更新到数据库后台中
+		HttpUtil.get(CmdMessage.CMD_LOGIN, params, new AsyncHttpResponseHandler()
+		{
+			public void onSuccess(String arg0)
+			{
+			};
+
+			public void onFailure(Throwable arg0)
+			{
+			};
+
+			public void onFinish()
+			{
+			};
+		});
+		return result;
+	}
+
+	/**
+	 * 用户收藏，点击事件
+	 * 
+	 * @param employeeID
+	 */
+	public int sendCmdDoLoveEmployee(int employeeID)
+	{
+		int result = -1;
+		HttpUtil.get(CmdMessage.CMD_LOVE_EMPLOYEES, new AsyncHttpResponseHandler()
+		{
+			public void onSuccess(String arg0)
+			{
+			};
+
+			public void onFailure(Throwable arg0)
+			{
+			};
+
+			public void onFinish()
+			{
+			};
+		});
+		return result;
+
+	}
+
+	/**
+	 * 根据StoreID获取Store的Bean信息
+	 * 
+	 * @param storeID
+	 * @return
+	 */
+	public StoreBean getStoreBeanByID(int storeID)
+	{
+
+		if (storeList == null || storeList.size() == 0)
+		{
+			return null;
+		}
+		int i = -1;
+		for (i = 0; i < storeList.size(); i++)
+		{
+			if (storeList.get(i).ID == storeID)
+			{
+				return storeList.get(i);
+			}
+		}
+		return null;
+	}
+
+	/**
+	 * 根据员工id获取EmployeeBean的Bean信息
+	 * 
+	 * @param employeeId
+	 * @return
+	 */
+	public EmployeesBean getEmployeeBeanByID(int employeeId)
+	{
+		if (employeesList == null || employeesList.size() == 0)
+		{
+			return null;
+		}
+		int i = -1;
+		for (i = 0; i < storeList.size(); i++)
+		{
+			if (employeesList.get(i).ID == employeeId)
+			{
+				return employeesList.get(i);
+			}
+		}
+		return null;
+	}
+
+	/**
+	 * 获取上一个浏览过的View,用于返回到指下的View。
+	 * 
+	 * @return
+	 */
+	public ViewInfoBean getLastViewInfo()
+	{
+		// 如果没有之前的历史记录，且只有一个页面，就不需要点返回。
+		if (historyViewRouteList == null || historyViewRouteList.size() < 2)
+		{
+			return null;
+
+		}
+		return historyViewRouteList.get(historyViewRouteList.size() - 2);
+	}
+
+	/**
+	 * 添加View到列表中，如果已经返回到首页面，那么将之前的View去掉。
+	 * 
+	 * @param view
+	 */
+	public void addView2HistoryRouteList(ViewInfoBean viewBean)
+	{
+		// 如果返回到首页，那么在其前面的所有列表清空，避免View一直重复记录。
+		if (viewBean.viewName.equalsIgnoreCase(Consts.VIEW_NAME_MAIN))
+		{
+			historyViewRouteList.clear();
+
+		}
+		historyViewRouteList.add(viewBean);
+	}
+
+	/**
+	 * 清除掉队列最尾的View
+	 */
+	public void removeLastViewFromRoute()
+	{
+		historyViewRouteList.removeLast();
+	}
+
+	/**
+	 * 获取当前的页面
+	 * 
+	 * @return
+	 */
+	public ViewInfoBean getCurrentViewIfo()
+	{
+		if (historyViewRouteList == null || historyViewRouteList.size() < 2)
+		{
+			return null;
+
+		}
+		return historyViewRouteList.get(historyViewRouteList.size() - 1);
+	}
+
+	/**
+	 * 根据业务标识不同，加载不同的店家数据,店家的数据依赖于距离/排名进行显示排序
+	 * 
+	 * @param bussinessFlag
+	 * @return
+	 */
+	public ArrayList<StoreBean> getStoreListByFlag(int bussinessFlag)
+	{
+		ArrayList<StoreBean> bussinessStoreList = new ArrayList<StoreBean>();
+		for (StoreBean storeInfo : storeList)
+		{
+			if (storeInfo.bussinessFlag == bussinessFlag)
+			{
+				bussinessStoreList.add(storeInfo);
+			}
+		}
+		return bussinessStoreList;
+	}
+
+	public ArrayList<EmployeesBean> getEmployeeListByStoreID(int storeID)
+	{
+		ArrayList<EmployeesBean> employeeList = new ArrayList<EmployeesBean>();
+		for (EmployeesBean employeeBean : employeesList)
+		{
+			if (storeID == employeeBean.obtainStroeID)
+			{
+				employeeList.add(employeeBean);
+			}
+		}
+		return employeeList;
+	}
+
+	/**
+	 * 从服务端获取店家数据，只加载本省的数据
+	 */
+	public void sendCmdGetStoreList()
+	{
+		// 获取同一个省份的数据
+		RequestParams params = new RequestParams();
+		params.put("province", AppContext.instance().currentArea.provinceName);
+		HttpUtil.get(CmdMessage.CMD_GET_STORE_INFO, new JsonHttpResponseHandler()
+		{
+			public void onSuccess(JSONArray arg0)
+			{ // 成功后返回一个JSONArray数据
+				storeList = messageAdapter.tranData2Store(arg0);
+			};
+
+			public void onFailure(Throwable arg0)
+			{
+			};
+
+			public void onFinish()
+			{
+			};
+
+			public void onSuccess(JSONObject arg0)
+			{ // 返回的是JSONObject，会调用这里
+			};
+		});
+
+	}
+
+	/**
+	 * 返回公共区域的广告信息
+	 * 
+	 * @return
+	 */
+	public void sendCmdGetPublicAdverList()
+	{
+		HttpUtil.get(CmdMessage.CMD_GET_ADVER_INFO, new JsonHttpResponseHandler()
+		{
+			public void onSuccess(JSONArray arg0)
+			{ // 成功后返回一个JSONArray数据
+				adverList = messageAdapter.tranData2Advertisement(arg0);
+			};
+
+			public void onFailure(Throwable arg0)
+			{
+			};
+
+			public void onFinish()
+			{
+			};
+
+			public void onSuccess(JSONObject arg0)
+			{ // 返回的是JSONObject，会调用这里
+			};
+		});
+	}
+
+	public void sendCmdGetEmployeesListByFlag(int storeID)
+	{
+		HttpUtil.get(CmdMessage.CMD_GET_EMPLOYEES_INFO, new JsonHttpResponseHandler()
+		{
+			public void onSuccess(JSONArray arg0)
+			{ // 成功后返回一个JSONArray数据
+				employeesList = messageAdapter.tranData2Employees(arg0);
+			};
+
+			public void onFailure(Throwable arg0)
+			{
+			};
+
+			public void onFinish()
+			{
+			};
+
+			public void onSuccess(JSONObject arg0)
+			{ // 返回的是JSONObject，会调用这里
+			};
+		});
+
+	}
+
+	/**
+	 * 获取当前收藏的历史记录
+	 */
+	public void sendCmdGetLoveHisList()
+	{
+		RequestParams params = new RequestParams();
+		params.put("loginName", AppContext.instance().userData.loginName);
+		HttpUtil.get(CmdMessage.CMD_GET_LOVE_HIS, params, new JsonHttpResponseHandler()
+		{
+			public void onSuccess(JSONArray arg0)
+			{ // 成功后返回一个JSONArray数据
+				loveHistList = messageAdapter.tranData2Love(arg0);
+			};
+
+			public void onFailure(Throwable arg0)
+			{
+			};
+
+			public void onFinish()
+			{
+			};
+
+			public void onSuccess(JSONObject arg0)
+			{ // 返回的是JSONObject，会调用这里
+			};
+		});
+	}
+
+	/**
+	 * 获取充值的记录
+	 * 
+	 * @return
+	 */
+	public void sendCmdGetCompensateHisList()
+	{
+		RequestParams params = new RequestParams();
+		params.put(" ", AppContext.instance().userData.loginName);
+		HttpUtil.get(CmdMessage.CMD_GET_CASH_HIS, params, new JsonHttpResponseHandler()
+		{
+			public void onSuccess(JSONArray arg0)
+			{ // 成功后返回一个JSONArray数据
+				cashHisList = messageAdapter.tranData2Love(arg0);
+			};
+
+			public void onFailure(Throwable arg0)
+			{
+			};
+
+			public void onFinish()
+			{
+			};
+
+			public void onSuccess(JSONObject arg0)
+			{ // 返回的是JSONObject，会调用这里
+			};
+		});
+
+	}
+
+	/**
+	 * 获取预约记录
+	 * 
+	 * @return
+	 */
+	public void sendCmdGetReservationHisList()
+	{
+		RequestParams params = new RequestParams();
+		params.put("loginName", AppContext.instance().userData.loginName);
+		HttpUtil.get(CmdMessage.CMD_GET_RESERVATION_HIS, params, new JsonHttpResponseHandler()
+		{
+			public void onSuccess(JSONArray arg0)
+			{ // 成功后返回一个JSONArray数据
+				reservationHisList = messageAdapter.tranData2Reservation(arg0);
+			};
+
+			public void onFailure(Throwable arg0)
+			{
+			};
+
+			public void onFinish()
+			{
+			};
+
+			public void onSuccess(JSONObject arg0)
+			{ // 返回的是JSONObject，会调用这里
+			};
+		});
+	}
+
+	/**
+	 * 执行预约，调用Http接口，返回预约结果
+	 * 
+	 * @return
+	 */
+	public int sendCmdDoReservation(ReservationBean reservation)
+	{
+		int result = -1;
+		RequestParams params = new RequestParams();
+		params.put("Date", reservation.getReservationDate());
+		params.put("Consume", reservation.getConsumeID());
+		params.put("storeID", reservation.getStoreID());
+		HttpUtil.get(CmdMessage.CMD_RESERVATION, params, new AsyncHttpResponseHandler()
+		{
+			public void onSuccess(String arg0)
+			{
+			};
+
+			public void onFailure(Throwable arg0)
+			{
+			};
+
+			public void onFinish()
+			{
+			};
+		});
+		return result;
+
+	}
+
+	/**
+	 * 判断当前是否有用户登录
+	 * 
+	 * @return
+	 */
+	public boolean isLoginSys()
+	{
+		return AppContext.instance().userData != null;
+	}
+
+	/**
+	 * 根据当前选择的类型，加载不同的历史数据，充值、预约、收藏
+	 * 
+	 * @param selectedFlag
+	 * @return
+	 */
+	public ArrayList<BaseRecordHisBean> getRecordHisData(int selectedFlag)
+	{
+		ArrayList<BaseRecordHisBean> resultBean = null;
+		if (selectedFlag == Consts.ABOUT_TAB_CASH_HIS)
+		{
+			resultBean = cashHisList;
+		} else if (selectedFlag == Consts.ABOUT_TAB_LOVE)
+		{
+			resultBean = loveHistList;
+		} else if (selectedFlag == Consts.ABOUT_TAB_RESERVATION_HIS)
+		{
+			resultBean = reservationHisList;
+		}
+
+		return resultBean;
+	}
+
+	/**
+	 * 从GPS上获取位置信息,使用异步的方法<br>
+	 * 如果长时间没有获取到GPS信息，那么就使用上次的定位结果或者用户选择的结果。
+	 */
+	public void getAreaDataFromGPS()
+	{
+		String threadName = "getAreaDataFromGPS";
+		final GPSLocation gpsLocation = new GPSLocation(mContext);
+		gpsLocation.openGPSSettings();
+		Thread getGpsDataThread = new Thread(new Runnable()
+		{
+
+			@Override
+			public void run()
+			{
+				gpsLocation.getAreaFromLocation();
+			}
+		}, threadName);
+		getGpsDataThread.start();
+	}
+
+	/**
+	 * 登录前，异步从后台获取一些公共的数据<br>
+	 * 1. 支持的区域<br>
+	 * 2. 各个理发店的信息，雇员信息<br>
+	 * 3. 公共的广告信息
+	 */
+	public void asynGetDataFromServerBeforeLogin()
+	{
+		String threadName = "asynGetDataFromServerBeforeLogin";
+		Thread beforeLoginThread = new Thread(new Runnable()
+		{
+
+			@Override
+			public void run()
+			{
+
+				sendCmdGetPublicAdverList();
+				sendCmdGetStoreList();
+				sendCmdGetSupportProvince();
+				sendCmdGetSupportCity();
+				sendCmdGetSupportArea();
+
+			}
+		}, threadName);
+		beforeLoginThread.start();
+	}
+
+	/**
+	 * 登录后，从后台获取与用户相关的数据<br>
+	 * 1. 个人充值记录、预约记录和收藏记录
+	 * 
+	 */
+	public void asynGetDataFromServerAfterLogin()
+	{
+		String threadName = "asynGetDataFromServerAfterLogin";
+		Thread afterLoginThread = new Thread(new Runnable()
+		{
+
+			@Override
+			public void run()
+			{
+				sendCmdGetCompensateHisList();
+				sendCmdGetLoveHisList();
+				sendCmdGetReservationHisList();
+
+			}
+		}, threadName);
+		afterLoginThread.start();
+
+	}
+
+	public List<Map<String, Object>> getDataMain()
+	{
+		List<Map<String, Object>> dataes = new ArrayList<Map<String, Object>>();
+		for (int i = 0; i < 3; i++)
+		{
+			Map<String, Object> map = new HashMap<String, Object>();
+			map.put("icon", R.drawable.myabout_dot);
+			map.put("title", "刘海龙，万科第五园沙宣点金牌讲师");
+			dataes.add(map);
+		}
+		return dataes;
+	}
+
+	public List<Map<String, Object>> getStores()
+	{
+		List<Map<String, Object>> dataes = new ArrayList<Map<String, Object>>();
+		for (int i = 0; i < 5; i++)
+		{
+			Map<String, Object> map = new HashMap<String, Object>();
+			map.put("image", R.drawable.haircut01);
+			map.put("title", "万科第五园沙宣点金牌");
+			map.put("content", "sfsfsfsdfdsfds");
+			dataes.add(map);
+		}
+		return dataes;
+	}
+
+	private void _initTestData()
+	{
+		int k = 1;
+		// 初始化加载店家列表
+		for (int i = 1; i < 7; i++)
+		{
+			StoreBean store = new StoreBean();
+			store.name = "科苑沙宣旗舰店";
+			store.description = "柳晴轩，欢迎光临本店";
+			store.contracePhone = "400-1234567";
+			store.saleProdcutDescription = "本店销售长生不老药，欢迎选购";
+			store.bussinessFlag = Consts.DO_HAIRCUT;
+			store.starLevel = i;
+			store.ID = k;
+
+			storeList.add(store);
+			k++;
+
+		}
+		// 初始化加载店家列表
+		for (int i = 1; i < 7; i++)
+		{
+			StoreBean store = new StoreBean();
+			store.name = "科苑星星旗舰店";
+			store.description = "柳智斌，欢迎光临本店";
+			store.bussinessFlag = Consts.DO_FOOT;
+			store.starLevel = i;
+			store.ID = k;
+
+			storeList.add(store);
+			k++;
+
+		}
+		// 初始化加载店家列表
+		for (int i = 1; i < 7; i++)
+		{
+			StoreBean store = new StoreBean();
+			store.name = "南山科苑旗舰店";
+			store.description = "王锦芬，欢迎光临本店";
+			store.bussinessFlag = Consts.DO_COSMETOLOGY;
+			store.starLevel = i;
+			store.ID = k;
+
+			storeList.add(store);
+			k++;
+
+		}
+
+		// 初始化加载店家列表
+		k = 1;
+		for (int i = 1; i < 7; i++)
+		{
+			EmployeesBean employeeBean = new EmployeesBean();
+			employeeBean.name = "罗龙昌";
+			employeeBean.goodat = "擅长洗剪吹";
+			employeeBean.Praise = 200;
+			employeeBean.ID = k;
+			employeeBean.obtainStroeID = 1;
+
+			employeesList.add(employeeBean);
+			k++;
+
+		}
+		k = 1;
+		for (int i = 0; i < 7; i++)
+		{
+			ProductBean productBean = new ProductBean();
+			productBean.storeName = "南山后海旗舰店";
+			productBean.product_description = "擅长洗剪吹";
+			productBean.product_price = 123;
+			productBean.product_StoreID = 1;
+			productBean.product_NO = k;
+			productesList.add(productBean);
+			k++;
+		}
+
+		String[] items = new String[] { "广东省" };
+		String[] guang_city = new String[] { "广州市", "深圳市", "惠州市", "东莞市" };
+		String[] shenzhen_area = new String[] { "福田区", "罗湖区", "南山区", "盐田区", "宝安区", "龙岗区" };
+		String[] guang_area = new String[] { "越秀", "海珠", "荔湾", "天河", "白云", "黄埔", "花都", "番禺", "萝岗", "南沙" };
+		String[] hui_area = new String[] { "惠城区", "惠阳区", "大亚湾经济技术开发区", "仲恺高新技术产业开发区", "博罗县", "惠东县", "龙门县" };
+		String[] dong_area = new String[] { "虎门", "长安", "沙田", "洪梅", "中堂", "麻涌", "道窑", "塘厦", "谢岗", "南城区", "东城区", "北城区",
+				"万江" };
+		/* 加载省份 */
+		for (int i = 0; i < items.length; i++)
+		{
+			supportProvinceList.add(items[i]);
+		}
+
+		/* 加载城市 */
+		ArrayList<String> cities = new ArrayList<String>();
+		for (int i = 0; i < guang_city.length; i++)
+		{
+			cities.add(guang_city[i]);
+		}
+		supportCityMap.put(items[0], cities);
+
+		/* 加载各个区 */
+		ArrayList<String> areas = new ArrayList<String>();
+		for (int i = 0; i < shenzhen_area.length; i++)
+		{
+			areas.add(shenzhen_area[i]);
+
+		}
+
+		supportAreaMap.put(guang_city[1], areas);
+
+		areas = new ArrayList<String>();
+		for (int i = 0; i < guang_area.length; i++)
+		{
+			areas.add(guang_area[i]);
+
+		}
+
+		supportAreaMap.put(guang_city[0], areas);
+
+		areas = new ArrayList<String>();
+		for (int i = 0; i < hui_area.length; i++)
+		{
+			areas.add(hui_area[i]);
+
+		}
+
+		supportAreaMap.put(guang_city[2], areas);
+
+		areas = new ArrayList<String>();
+		for (int i = 0; i < dong_area.length; i++)
+		{
+			areas.add(dong_area[i]);
+
+		}
+
+		supportAreaMap.put(guang_city[3], areas);
+
+	}
+}

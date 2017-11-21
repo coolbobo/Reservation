@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "27.0.1"
+
+    defaultConfig {
+        applicationId "com.owned.reservation"
+        minSdkVersion 8
+        targetSdkVersion 19
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_7
+            targetCompatibility JavaVersion.VERSION_1_7
+        }
+    }
+    aaptOptions {
+        cruncherEnabled = false
+        useNewCruncher = false
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:19.1.0'
+    compile files('libs/android-async-http-1.4.4.jar')
+    compile files('libs/mframework.jar')
+    compile files('libs/ShareSDK-Core-2.3.8.jar')
+    compile files('libs/ShareSDK-QQ-2.3.8.jar')
+    compile files('libs/ShareSDK-QZone-2.3.8.jar')
+    compile files('libs/ShareSDK-SinaWeibo-2.3.8.jar')
+    compile files('libs/ShareSDK-TencentWeibo-2.3.8.jar')
+    compile files('libs/ShareSDK-Wechat-2.3.8.jar')
+    compile files('libs/ShareSDK-Wechat-Core-2.3.8.jar')
+    compile files('libs/ShareSDK-Wechat-Favorite-2.3.8.jar')
+    compile files('libs/ShareSDK-Wechat-Moments-2.3.8.jar')
+    compile files('libs/slidingmenu.jar')
+}

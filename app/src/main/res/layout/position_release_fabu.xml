@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="240dip"
+    android:orientation="vertical"
+    android:paddingLeft="20dip"
+    android:paddingRight="20dip"
+  	 >
+  	 
+  	<LinearLayout 
+  	    android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:orientation="horizontal"
+		android:layout_marginTop="10dip"
+	  	    >
+  	    <TextView 
+		  	    android:layout_width="70dip"
+		  	    android:layout_height="match_parent"
+		  	    android:gravity="center"
+		  	    android:text="@string/position_workYear"
+  	    		/>
+  			 <EditText 
+	  	    android:layout_width="match_parent"
+	  	    android:layout_height="match_parent"
+	  	    android:gravity="center_vertical"
+	  	   	android:background="@drawable/input_phone"
+  	    	/>  
+  	</LinearLayout>
+  	
+	<LinearLayout 
+  	    android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:orientation="horizontal"
+		android:layout_marginTop="10dip"
+	  	    >
+  		  	<TextView 
+		  	    android:layout_width="70dip"
+		  	    android:layout_height="match_parent"
+		  	    android:gravity="center"
+		  	    android:text="@string/position_job"
+  	    		/>
+  			 <EditText 
+	  	    android:layout_width="match_parent"
+	  	    android:layout_height="match_parent"
+	  	    android:gravity="center_vertical"
+	  	   	android:background="@drawable/input_phone"
+  	    	/>  
+  		    
+	</LinearLayout>
+  		
+  		
+	<LinearLayout 
+  	    android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:orientation="horizontal"
+		android:layout_marginTop="10dip"
+	  	    >
+  			<TextView 
+		  	    android:layout_width="70dip"
+		  	    android:layout_height="match_parent"
+		  	    android:gravity="center"
+		  	    android:text="@string/position_area"
+  	    		/>
+  			 <EditText 
+	  	    android:layout_width="match_parent"
+	  	    android:layout_height="match_parent"
+	  	    android:gravity="center_vertical"
+	  	   	android:background="@drawable/input_phone"
+  	    	/>       
+	</LinearLayout>
+	
+	
+	
+		<LinearLayout 
+  	    android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:orientation="horizontal"
+		android:layout_marginTop="10dip"
+	  	    >
+  	    <TextView 
+		  	    android:layout_width="70dip"
+		  	    android:layout_height="match_parent"
+		  	    android:gravity="center"
+		  	    android:text="@string/position_experience"
+  	    		/>
+  			 <EditText 
+	  	    android:layout_width="match_parent"
+	  	    android:layout_height="match_parent"
+	  	    android:gravity="center_vertical"
+	  	   	android:background="@drawable/input_phone"
+  	    	/>  
+  	</LinearLayout>
+  	
+	<LinearLayout 
+  	    android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:orientation="horizontal"
+		android:layout_marginTop="10dip"
+	  	    >
+  		  	<TextView 
+		  	    android:layout_width="70dip"
+		  	    android:layout_height="match_parent"
+		  	    android:gravity="center"
+		  	    android:text="@string/position_salary"
+  	    		/>
+  			 <EditText 
+	  	    android:layout_width="match_parent"
+	  	    android:layout_height="match_parent"
+	  	    android:gravity="center_vertical"
+	  	   	android:background="@drawable/input_phone"
+  	    	/>  
+  		    
+	</LinearLayout>
+  		
+  		
+	<LinearLayout 
+  	    android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:orientation="horizontal"
+		android:layout_marginTop="5dip"
+	  	    >
+  			<TextView 
+		  	    android:layout_width="70dip"
+		  	    android:layout_height="match_parent"
+		  	    android:gravity="center"
+		  	    android:text="@string/position_detail"
+  	    		/>
+  			<EditText 
+	  	    android:layout_width="match_parent"
+	  	    android:layout_height="match_parent"
+	  	    android:gravity="center_vertical"
+	  	   	android:background="@drawable/input_phone"
+  	    	/>       
+	</LinearLayout>
+</LinearLayout>
+

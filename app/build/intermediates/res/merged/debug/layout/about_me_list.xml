@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/personage_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+
+	<RelativeLayout 
+	    android:id="@+id/personage_layout"
+	    android:layout_width="match_parent"
+	    android:layout_height="50dip"
+       
+	    android:paddingBottom="6dp"
+	    android:paddingLeft="20dp"
+	    android:paddingRight="20dp"
+	    android:paddingTop="6dp" 
+	   android:background="@drawable/zixun_information"
+	    >
+
+    <ImageView
+        android:id="@+id/user_dot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/about_icon"
+        android:contentDescription="@null" />
+
+
+    <TextView
+        android:id="@+id/personage_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/user_dot"
+        android:ellipsize="end"
+        android:ems="15"
+        android:singleLine="true"
+        android:text="@string/personage_items_index_text"
+        android:textColor="#7f6d5e"
+        android:textSize="15sp" />
+
+
+    <ImageView
+        android:id="@+id/user_share"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/share"
+        android:contentDescription="@null" />
+	</RelativeLayout>
+</RelativeLayout>

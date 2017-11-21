@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btn_checkbox_on.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-mdpi\\btn_checkbox_on.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\doaction.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-mdpi\\doaction.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btn_checkbox_off.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-mdpi\\btn_checkbox_off.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\dialog_select_button.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-mdpi\\dialog_select_button.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\goback.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-mdpi\\goback.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\dialog_close.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-mdpi\\dialog_close.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\welcome_app.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-mdpi\\welcome_app.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btn_checkbox_onoff.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-mdpi\\btn_checkbox_onoff.png"
+    }
+]

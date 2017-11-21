@@ -1,0 +1,770 @@
+[
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pedicure02.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\pedicure02.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pedicure_star.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\pedicure_star.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pedicure_address_area.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\pedicure_address_area.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\img5.jpg",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\img5.jpg"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\main_haircunt.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\main_haircunt.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\haircut_zixun.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\haircut_zixun.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\jobs_search_input.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\jobs_search_input.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\jobs_selected_address.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\jobs_selected_address.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\jobs_job03.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\jobs_job03.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\position_hua.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\position_hua.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\work_main.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\work_main.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\footer_storelist.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\footer_storelist.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_reservation_okselected.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\btn_reservation_okselected.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\jobs_person.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\jobs_person.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_5.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\progress_5.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\position_itembg.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\position_itembg.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\haircutmain.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\haircutmain.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pedicure_person.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\pedicure_person.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pedicure03.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\pedicure03.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hairdressing_address_bg.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\hairdressing_address_bg.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\about_loginselected.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\about_loginselected.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\product.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\product.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_love.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\btn_love.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hairdressing_province.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\hairdressing_province.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\footer_top.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\footer_top.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_logo.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\app_logo.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\about_imagecash.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\about_imagecash.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hanrdressin_logo.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\hanrdressin_logo.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_3.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\progress_3.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\haircut_power.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\haircut_power.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\img3.jpg",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\img3.jpg"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\showinformationselected.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\showinformationselected.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hairdressing_address_area.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\hairdressing_address_area.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myabout_cash.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\myabout_cash.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hardression_person.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\hardression_person.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hairdressing_person.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\hairdressing_person.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_6.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\progress_6.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_revation.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\btn_revation.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\main_body.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\main_body.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dotunfoucs.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\dotunfoucs.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\employee_image.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\employee_image.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\footer_zixun.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\footer_zixun.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\position_navbtn.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\position_navbtn.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\haridressing_list.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\haridressing_list.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\about_information.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\about_information.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\haricut_storelist.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\haricut_storelist.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\harcut_storeserach.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\harcut_storeserach.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\jobs_header_lt.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\jobs_header_lt.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\footer_tui.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\footer_tui.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\haridressing_logo.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\haridressing_logo.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\haircut_serach.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\haircut_serach.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hairstylistemp02.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\hairstylistemp02.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\about.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\about.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\jobs_main_bg.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\jobs_main_bg.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\regedit_code.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\regedit_code.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\main_footer.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\main_footer.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_1.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\progress_1.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\gallery5.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\gallery5.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\jobs_job01.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\jobs_job01.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hardress_top.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\hardress_top.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hairdressing_advert01.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\hairdressing_advert01.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\revervation.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\revervation.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\quit.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\quit.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\regedit_codeselected.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\regedit_codeselected.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\position_topnav.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\position_topnav.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pedicure03_min.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\pedicure03_min.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\haircut_reversation.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\haircut_reversation.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sexselected.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\sexselected.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\input_phone.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\input_phone.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\user_other_bg_min.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\user_other_bg_min.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hairdressing_header_bg.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\hairdressing_header_bg.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_reservation_cacle.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\btn_reservation_cacle.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\position_itemxing.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\position_itemxing.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hairdressing02_min.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\hairdressing02_min.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\footer_employee.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\footer_employee.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pedicure_header_lt.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\pedicure_header_lt.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\revervation_spinner.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\revervation_spinner.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\jobs_address.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\jobs_address.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\inserphone.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\inserphone.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pedicure01_min.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\pedicure01_min.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\jobs_to_employ_yes_text.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\jobs_to_employ_yes_text.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\haircut_tui.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\haircut_tui.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_iphone.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\btn_iphone.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pedicure_address_city.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\pedicure_address_city.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\haircut_image.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\haircut_image.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\employee1.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\employee1.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\about_icon.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\about_icon.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\img1.jpg",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\img1.jpg"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\about_login.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\about_login.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pedicure_province.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\pedicure_province.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_4.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\progress_4.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\img4.jpg",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\img4.jpg"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_7.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\progress_7.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\positionbg.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\positionbg.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\about_redegit.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\about_redegit.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\jobs_shop_item_bg.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\jobs_shop_item_bg.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pedicure_address_index.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\pedicure_address_index.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\about_revation.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\about_revation.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\position_select.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\position_select.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\private_main.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\private_main.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hairdressing02.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\hairdressing02.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\gobackselected.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\gobackselected.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\haridressing_tui.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\haridressing_tui.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\main_haircuntselected.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\main_haircuntselected.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_reservation_cacleselected.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\btn_reservation_cacleselected.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\user_my_subscribe_no_text.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\user_my_subscribe_no_text.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hairdressing_praise.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\hairdressing_praise.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\private_advertiment.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\private_advertiment.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\main_footerselected.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\main_footerselected.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\haircut_employee.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\haircut_employee.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hairdressing01_min.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\hairdressing01_min.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\reveration_date.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\reveration_date.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\about_redegitselected.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\about_redegitselected.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\employee_indoctrion.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\employee_indoctrion.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\position_topsearch.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\position_topsearch.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\user_my_subscribe_yes_text.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\user_my_subscribe_yes_text.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\jobs_address_index.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\jobs_address_index.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\main.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\main.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\footer_reversation.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\footer_reversation.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myabout_revationfocus.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\myabout_revationfocus.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dotselected.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\dotselected.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pedicure_body_bg.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\pedicure_body_bg.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\calendar.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\calendar.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\haircut_revercom.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\haircut_revercom.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\jobs_bg.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\jobs_bg.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_postion.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\btn_postion.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\product_sure.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\product_sure.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hairdressing_footer_bg.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\hairdressing_footer_bg.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\footer_main.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\footer_main.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\user_main_bg.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\user_main_bg.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hairdressing03.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\hairdressing03.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\spinner.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\spinner.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_currentpostion.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\btn_currentpostion.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\haridressing_serach.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\haridressing_serach.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myabout_revation.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\myabout_revation.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\back.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\back.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\stores_search.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\stores_search.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pedicure_footer_bg.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\pedicure_footer_bg.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hairdreeing_zixun.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\hairdreeing_zixun.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\haridressing_heart.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\haridressing_heart.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\user_collect_yes_text.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\user_collect_yes_text.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\showshop.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\showshop.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hairdressing_header_lt.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\hairdressing_header_lt.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\showinformation.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\showinformation.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\about_line.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\about_line.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hairdressing_address_city.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\hairdressing_address_city.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pedicure_header_bg.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\pedicure_header_bg.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\share.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\share.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\main_bg.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\main_bg.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\jobs_search.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\jobs_search.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\main_reveravtionselected.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\main_reveravtionselected.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\haridressing_stares.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\haridressing_stares.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\zixun_information.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\zixun_information.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hairdressing_star.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\hairdressing_star.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\jobs_header_bg.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\jobs_header_bg.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\footer_serach.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\footer_serach.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\showshopselected.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\showshopselected.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hairdressing01.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\hairdressing01.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\about_cash.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\about_cash.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\user_recharge_yes_text.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\user_recharge_yes_text.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\img2.jpg",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\img2.jpg"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hairdressing03_min.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\hairdressing03_min.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hairdressing_recommend.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\hairdressing_recommend.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hairdreesing_zixun.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\hairdreesing_zixun.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hairstylistemp01.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\hairstylistemp01.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_reservation_ok.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\btn_reservation_ok.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_8.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\progress_8.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hairdressing.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\hairdressing.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\footer_revercomp.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\footer_revercomp.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myabout_shoufocus.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\myabout_shoufocus.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\user_bg.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\user_bg.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_2.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\progress_2.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\haridressing_vicinity.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\haridressing_vicinity.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\position_xing.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\position_xing.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\jobs_to_employ_bg.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\jobs_to_employ_bg.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myabout_shoucang.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\myabout_shoucang.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\haridressing_heart_red.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\haridressing_heart_red.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\main_reveravtion.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\main_reveravtion.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_revation_status.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\btn_revation_status.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hairdressing_item_bg.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\hairdressing_item_bg.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\gallery3.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\gallery3.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pedicure_address_bg.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\pedicure_address_bg.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hairdressing_address_index.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\hairdressing_address_index.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\footer_power.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\footer_power.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myabout_cashfocus.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\myabout_cashfocus.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\private_useinfimage.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\private_useinfimage.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pedicure02_min.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\pedicure02_min.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\releser.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\releser.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\jobs_job02.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\jobs_job02.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pedicure_praise.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\pedicure_praise.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\jobs_bg_no_texture.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\jobs_bg_no_texture.png"
+    },
+    {
+        "merged": "D:\\code\\Reservation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pedicure01.png",
+        "source": "D:\\code\\Reservation\\app\\src\\main\\res\\drawable-hdpi\\pedicure01.png"
+    }
+]

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+       <string-array name="reservationtime">
+           <item>18:00-20:00</item>
+           <item>20:00-22:00</item>
+           <item>22:00-24:00</item>
+           <item>00:00-02:00</item>
+           <item>02:00-04:00</item>
+           <item>04:00-06:00</item>
+           <item>06:00-08:00</item>
+           <item>08:00-10:00</item>
+           <item>10:00-12:00</item>
+           <item>12:00-14:00</item>
+           <item>14:00-16:00</item>
+           <item>16:00-18:00</item>
+       </string-array>
+</resources>
